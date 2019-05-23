@@ -1,0 +1,17 @@
+{
+  "name": "css-utils",
+  "version": "0.0.1",
+  "description": "CSS utility classes for Self Aware projects",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass -w --output-style compact --source-map dist/utils.css.map src/index.scss dist/utils.css;",
+    "watch:min": "sass -w --output-style compressed --source-map dist/utils.min.css.map src/index.scss dist/utils.min.css;",
+    "build": "sass --output-style compact --source-map dist/utils.css.map src/index.scss dist/utils.css; node-sass --output-style compressed --source-map dist/utils.min.css.map src/index.scss dist/utils.min.css;"
+  },
+  "keywords": [],
+  "author": "Self Aware <howdy@selfaware.studio> (https://selfaware.studio)",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.20.1"
+  }
+}
