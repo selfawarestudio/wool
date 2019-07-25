@@ -409,6 +409,38 @@
   flex: none;
 }
 
+.f0 {
+  font-size: 0rem;
+}
+
+.f16 {
+  font-size: 1.6rem;
+}
+
+.f20 {
+  font-size: 2rem;
+}
+
+.f24 {
+  font-size: 2.4rem;
+}
+
+.f32 {
+  font-size: 3.2rem;
+}
+
+.f56 {
+  font-size: 5.6rem;
+}
+
+.f64 {
+  font-size: 6.4rem;
+}
+
+.f100 {
+  font-size: 10rem;
+}
+
 .ls-01em {
   letter-spacing: -0.01em;
 }
@@ -5314,6 +5346,30 @@
     -ms-flex: none;
     flex: none;
   }
+  .xs\:f0 {
+    font-size: 0rem;
+  }
+  .xs\:f16 {
+    font-size: 1.6rem;
+  }
+  .xs\:f20 {
+    font-size: 2rem;
+  }
+  .xs\:f24 {
+    font-size: 2.4rem;
+  }
+  .xs\:f32 {
+    font-size: 3.2rem;
+  }
+  .xs\:f56 {
+    font-size: 5.6rem;
+  }
+  .xs\:f64 {
+    font-size: 6.4rem;
+  }
+  .xs\:f100 {
+    font-size: 10rem;
+  }
   .xs\:ls-01em {
     letter-spacing: -0.01em;
   }
@@ -9098,6 +9154,30 @@
     -webkit-flex: none;
     -ms-flex: none;
     flex: none;
+  }
+  .s\:f0 {
+    font-size: 0rem;
+  }
+  .s\:f16 {
+    font-size: 1.6rem;
+  }
+  .s\:f20 {
+    font-size: 2rem;
+  }
+  .s\:f24 {
+    font-size: 2.4rem;
+  }
+  .s\:f32 {
+    font-size: 3.2rem;
+  }
+  .s\:f56 {
+    font-size: 5.6rem;
+  }
+  .s\:f64 {
+    font-size: 6.4rem;
+  }
+  .s\:f100 {
+    font-size: 10rem;
   }
   .s\:ls-01em {
     letter-spacing: -0.01em;
@@ -12884,6 +12964,30 @@
     -ms-flex: none;
     flex: none;
   }
+  .m\:f0 {
+    font-size: 0rem;
+  }
+  .m\:f16 {
+    font-size: 1.6rem;
+  }
+  .m\:f20 {
+    font-size: 2rem;
+  }
+  .m\:f24 {
+    font-size: 2.4rem;
+  }
+  .m\:f32 {
+    font-size: 3.2rem;
+  }
+  .m\:f56 {
+    font-size: 5.6rem;
+  }
+  .m\:f64 {
+    font-size: 6.4rem;
+  }
+  .m\:f100 {
+    font-size: 10rem;
+  }
   .m\:ls-01em {
     letter-spacing: -0.01em;
   }
@@ -16669,6 +16773,30 @@
     -ms-flex: none;
     flex: none;
   }
+  .l\:f0 {
+    font-size: 0rem;
+  }
+  .l\:f16 {
+    font-size: 1.6rem;
+  }
+  .l\:f20 {
+    font-size: 2rem;
+  }
+  .l\:f24 {
+    font-size: 2.4rem;
+  }
+  .l\:f32 {
+    font-size: 3.2rem;
+  }
+  .l\:f56 {
+    font-size: 5.6rem;
+  }
+  .l\:f64 {
+    font-size: 6.4rem;
+  }
+  .l\:f100 {
+    font-size: 10rem;
+  }
   .l\:ls-01em {
     letter-spacing: -0.01em;
   }
@@ -20453,6 +20581,30 @@
     -webkit-flex: none;
     -ms-flex: none;
     flex: none;
+  }
+  .xl\:f0 {
+    font-size: 0rem;
+  }
+  .xl\:f16 {
+    font-size: 1.6rem;
+  }
+  .xl\:f20 {
+    font-size: 2rem;
+  }
+  .xl\:f24 {
+    font-size: 2.4rem;
+  }
+  .xl\:f32 {
+    font-size: 3.2rem;
+  }
+  .xl\:f56 {
+    font-size: 5.6rem;
+  }
+  .xl\:f64 {
+    font-size: 6.4rem;
+  }
+  .xl\:f100 {
+    font-size: 10rem;
   }
   .xl\:ls-01em {
     letter-spacing: -0.01em;
