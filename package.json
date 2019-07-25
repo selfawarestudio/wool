@@ -1,17 +1,19 @@
 {
-  "name": "css-utils",
+  "name": "@selfaware/wool",
   "version": "0.0.1",
   "description": "CSS utility classes for Self Aware projects",
   "main": "index.js",
   "scripts": {
-    "watch": "sass -w --output-style compact --source-map dist/utils.css.map src/index.scss dist/utils.css;",
-    "watch:min": "sass -w --output-style compressed --source-map dist/utils.min.css.map src/index.scss dist/utils.min.css;",
-    "build": "sass --output-style compact --source-map dist/utils.css.map src/index.scss dist/utils.css; node-sass --output-style compressed --source-map dist/utils.min.css.map src/index.scss dist/utils.min.css;"
+    "build": "node-sass --output-style expanded --source-map dist/wool.css.map src/index.scss dist/wool.css;",
+    "watch": "node-sass -w --output-style expanded --source-map dist/wool.css.map src/index.scss dist/wool.css;",
+    "cssnano": "postcss dist/wool.css > dist/wool.min.css"
   },
   "keywords": [],
   "author": "Self Aware <howdy@selfaware.studio> (https://selfaware.studio)",
   "license": "MIT",
   "devDependencies": {
-    "sass": "^1.20.1"
+    "cssnano": "^4.1.10",
+    "node-sass": "^4.12.0",
+    "postcss-cli": "^6.1.2"
   }
 }

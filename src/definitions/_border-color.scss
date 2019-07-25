@@ -1,0 +1,6 @@
+$border-color: ();
+@each $key, $value in $colors {
+  $border-color: map-merge($border-color, (
+    'bc-#{$key}': ( border-color: $value ),
+  ));
+}

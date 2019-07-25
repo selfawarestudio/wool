@@ -1,0 +1,16 @@
+$border: (
+  'bn': ( border: none ),
+  'ba': ( border: $default-border ),
+  'bt': ( border-top: $default-border ),
+  'bv': (
+    border-top: $default-border,
+    border-bottom: $default-border,
+  ),
+  'bb': ( border-bottom: $default-border ),
+  'bl': ( border-left: $default-border ),
+  'bh': (
+    border-left: $default-border,
+    border-right: $default-border
+  ),
+  'br': ( border-right: $default-border )
+);

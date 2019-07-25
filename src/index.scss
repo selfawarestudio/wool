@@ -1,0 +1,62 @@
+@import 'util';
+@import 'config';
+@import 'definitions/index.scss';
+
+$static-definitions: map-collect(
+  $a11y,
+  $bg,
+  $border-radius,
+  $color,
+  $font-family,
+  $font-style,
+  $font-weight,
+  $max-width,
+  $object-fit,
+  $overflow,
+  $pointer-events,
+  $ratio,
+  $will-change,
+  $z-index
+) !default;
+
+$responsive-definitions: map-collect(
+  $border,
+  $border-width,
+  $border-style,
+  $border-color,
+  $display,
+  $flexbox,
+  $font-size,
+  $letter-spacing,
+  $line-height,
+  $margin,
+  $padding,
+  $position,
+  $sizing,
+  $text
+) !default;
+
+$definitions: map-merge(
+  $static-definitions,
+  $responsive-definitions
+);
+
+@each $selector, $styles in $definitions {
+  .#{$selector} {
+    @each $key, $value in $styles {
+      #{$key}: $value;
+    }
+  }
+}
+
+@each $prefix, $query in $media-queries {
+  @media ($query) {
+    @each $selector, $styles in $responsive-definitions {
+      .#{$prefix}\:#{$selector} {
+        @each $key, $value in $styles {
+          #{$key}: $value;
+        }
+      }
+    }
+  }
+}

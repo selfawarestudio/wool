@@ -1,0 +1,24 @@
+$position: (
+  'rel': ( position: relative ),
+  'abs': ( position: absolute ),
+  'fix': ( position: fixed ),
+  'sticky': ( position: sticky ),
+  'fill': (
+    top: 0,
+    right: 0,
+    bottom: 0,
+    left: 0
+  ),
+  'fill-y': (
+    top: 0,
+    bottom: 0
+  ),
+  'fill-x': (
+    right: 0,
+    left: 0
+  ),
+  'top': ( top: 0 ),
+  'right': ( right: 0 ),
+  'bottom': ( bottom: 0 ),
+  'left': ( left: 0 ),
+);

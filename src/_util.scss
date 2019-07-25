@@ -1,0 +1,19 @@
+@function map-collect($maps...) {
+  $collection: ();
+  @each $map in $maps {
+    $collection: map-merge($collection, $map);
+  }
+  @return $collection;
+}
+
+@function color($name) {
+  @return map-get($colors, $name);
+}
+
+@function breakpoint($name) {
+  @return map-get($breakpoints, $name);
+}
+
+@function query($name) {
+  @return map-get($media-queries, $name);
+}

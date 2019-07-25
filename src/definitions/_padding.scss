@@ -1,0 +1,13 @@
+$padding: ();
+
+@each $key, $value in $padding-units {
+  $padding: map-merge($padding, (
+    'p#{$key}': ( padding: $value ),
+    'pt#{$key}': ( padding-top: $value ),
+    'pv#{$key}': ( padding-top: $value, padding-bottom: $value ),
+    'pb#{$key}': ( padding-bottom: $value ),
+    'pl#{$key}': ( padding-left: $value ),
+    'ph#{$key}': ( padding-left: $value, padding-right: $value ),
+    'pr#{$key}': ( padding-right: $value )
+  ));
+}

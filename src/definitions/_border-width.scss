@@ -1,0 +1,7 @@
+$border-width: ();
+
+@each $key, $value in $border-widths {
+  $border-width: map-merge($border-width, (
+    'bw-#{$key}': ( border-width: $value )
+  ));
+}

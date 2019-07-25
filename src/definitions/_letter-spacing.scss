@@ -1,0 +1,6 @@
+$letter-spacing: ();
+@each $key, $value in $letter-spacings {
+  $letter-spacing: map-merge($letter-spacing, (
+    'ls#{$key}': ( letter-spacing: $value )
+  ));
+}

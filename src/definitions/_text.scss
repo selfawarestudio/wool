@@ -1,0 +1,16 @@
+$text: (
+  'ttu': ( text-transform: uppercase ),
+  'tdu': ( text-decoration: underline ),
+  'tdn': ( text-decoration: none ),
+  'tc': ( text-align: center ),
+  'tl': ( text-align: left ),
+  'tr': ( text-align: right ),
+  'tj': ( text-align: justify ),
+  'wrap': ( white-space: normal ),
+  'nowrap': ( white-space: nowrap ),
+  'truncate': (
+    white-space: nowrap,
+    overflow: hidden,
+    text-overflow: ellipsis
+  )
+);

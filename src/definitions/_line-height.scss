@@ -1,0 +1,6 @@
+$line-height: ();
+@each $key, $value in $line-heights {
+  $line-height: map-merge($line-height, (
+    'lh#{$key}': ( line-height: $value )
+  ));
+}

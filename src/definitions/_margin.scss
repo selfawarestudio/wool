@@ -1,0 +1,22 @@
+$margin: (
+  'ma': ( margin: auto ),
+  'mta': ( margin-top: auto ),
+  'mva': ( margin-top: auto, margin-bottom: auto ),
+  'mba': ( margin-bottom: auto ),
+  'mla': ( margin-left: auto ),
+  'mha': ( margin-left: auto, margin-right: auto ),
+  'mra': ( margin-right: auto )
+);
+
+@each $key, $value in $margin-units {
+  $margin: map-merge($margin, (
+    'm#{$key}': ( margin: $value ),
+    'mt#{$key}': ( margin-top: $value ),
+    'mv#{$key}': ( margin-top: $value, margin-bottom: $value ),
+    'mb#{$key}': ( margin-bottom: $value ),
+    'ml#{$key}': ( margin-left: $value ),
+    'mh#{$key}': ( margin-left: $value, margin-right: $value ),
+    'mr#{$key}': ( margin-right: $value )
+  ));
+}
+
