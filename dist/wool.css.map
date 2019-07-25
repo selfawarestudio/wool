@@ -1,6 +1,6 @@
 {
 	"version": 3,
-	"file": "utils.css",
+	"file": "wool.css",
 	"sources": [
 		"../src/index.scss",
 		"../src/_util.scss",
