@@ -6,10 +6,6 @@
   @return $collection;
 }
 
-@function color($name) {
-  @return map-get($colors, $name);
-}
-
 @function breakpoint($name) {
   @return map-get($breakpoints, $name);
 }
