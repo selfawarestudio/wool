@@ -1,6 +1,11 @@
 $z-index: ();
-@for $count from 0 through 10 {
-  $z-index: map-merge($z-index, (
-    'z#{$count}': ( z-index: $count )
-  ));
+@for $count from -10 through 10 {
+  $z-index: map-merge(
+    $z-index,
+    (
+      'z#{$count}': (
+        z-index: $count,
+      ),
+    )
+  );
 }
