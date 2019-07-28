@@ -65,6 +65,14 @@
   font-style: italic;
 }
 
+.fw100 {
+  font-weight: 100;
+}
+
+.fw200 {
+  font-weight: 200;
+}
+
 .fw300 {
   font-weight: 300;
 }
