@@ -5111,6 +5111,10 @@
   padding-right: 25rem;
 }
 
+.static {
+  position: static;
+}
+
 .rel {
   position: relative;
 }
@@ -8965,6 +8969,9 @@
   .xs\:pr250 {
     padding-right: 25rem;
   }
+  .xs\:static {
+    position: static;
+  }
   .xs\:rel {
     position: relative;
   }
@@ -12776,6 +12783,9 @@
   }
   .s\:pr250 {
     padding-right: 25rem;
+  }
+  .s\:static {
+    position: static;
   }
   .s\:rel {
     position: relative;
@@ -16589,6 +16599,9 @@
   .m\:pr250 {
     padding-right: 25rem;
   }
+  .m\:static {
+    position: static;
+  }
   .m\:rel {
     position: relative;
   }
@@ -20401,6 +20414,9 @@
   .l\:pr250 {
     padding-right: 25rem;
   }
+  .l\:static {
+    position: static;
+  }
   .l\:rel {
     position: relative;
   }
@@ -24212,6 +24228,9 @@
   }
   .xl\:pr250 {
     padding-right: 25rem;
+  }
+  .xl\:static {
+    position: static;
   }
   .xl\:rel {
     position: relative;
