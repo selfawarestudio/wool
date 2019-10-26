@@ -4,8 +4,8 @@
   "description": "CSS utility classes for Self Aware projects",
   "main": "index.js",
   "scripts": {
-    "build": "node-sass --output-style expanded --source-map dist/wool.css.map src/index.scss dist/wool.css;",
-    "watch": "node-sass -w --output-style expanded --source-map dist/wool.css.map src/index.scss dist/wool.css;",
+    "build": "sass --style=expanded src/index.scss dist/wool.css;",
+    "watch": "sass --watch --style=expanded src/index.scss dist/wool.css;",
     "cssnano": "postcss dist/wool.css > dist/wool.min.css"
   },
   "keywords": [],
@@ -13,7 +13,7 @@
   "license": "MIT",
   "devDependencies": {
     "cssnano": "^4.1.10",
-    "node-sass": "^4.12.0",
-    "postcss-cli": "^6.1.2"
+    "postcss-cli": "^6.1.2",
+    "sass": "^1.23.1"
   }
 }
