@@ -1,6 +1,6 @@
 {
   "name": "@selfaware/wool",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "CSS utility classes for Self Aware projects",
   "main": "index.js",
   "scripts": {
