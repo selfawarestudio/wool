@@ -1,6 +1,10 @@
 $sizing: (
   'x': ( width: 100% ),
   'y': ( height: 100% ),
+  'w5': ( width: 5% ),
+  'w10': ( width: 10% ),
+  'w15': ( width: 15% ),
+  'w20': ( width: 20% ),
   'w25': ( width: 25% ),
   'w30': ( width: 30% ),
   'w35': ( width: 35% ),
@@ -21,5 +25,8 @@ $sizing: (
   'min-vw100': ( min-width: 100vw ),
   'min-vh100': ( min-height: 100vh ),
   'vw100': ( width: 100vw ),
-  'vh100': ( height: 100vh )
+  'vh100': ( height: 100vh ),
+  'h25': ( height: 25% ),
+  'h50': ( height: 50% ),
+  'h75': ( height: 75% ),
 );

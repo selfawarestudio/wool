@@ -129,6 +129,10 @@
   object-fit: cover;
 }
 
+.o0 {
+  opacity: 0;
+}
+
 .o05 {
   opacity: 0.05;
 }
@@ -5248,6 +5252,22 @@
   height: 100%;
 }
 
+.w5 {
+  width: 5%;
+}
+
+.w10 {
+  width: 10%;
+}
+
+.w15 {
+  width: 15%;
+}
+
+.w20 {
+  width: 20%;
+}
+
 .w25 {
   width: 25%;
 }
@@ -5330,6 +5350,18 @@
 
 .vh100 {
   height: 100vh;
+}
+
+.h25 {
+  height: 25%;
+}
+
+.h50 {
+  height: 50%;
+}
+
+.h75 {
+  height: 75%;
 }
 
 .ttu {
@@ -10225,6 +10257,22 @@
     height: 100%;
   }
 
+  .xs\:w5 {
+    width: 5%;
+  }
+
+  .xs\:w10 {
+    width: 10%;
+  }
+
+  .xs\:w15 {
+    width: 15%;
+  }
+
+  .xs\:w20 {
+    width: 20%;
+  }
+
   .xs\:w25 {
     width: 25%;
   }
@@ -10307,6 +10355,18 @@
 
   .xs\:vh100 {
     height: 100vh;
+  }
+
+  .xs\:h25 {
+    height: 25%;
+  }
+
+  .xs\:h50 {
+    height: 50%;
+  }
+
+  .xs\:h75 {
+    height: 75%;
   }
 
   .xs\:ttu {
@@ -15202,6 +15262,22 @@
     height: 100%;
   }
 
+  .s\:w5 {
+    width: 5%;
+  }
+
+  .s\:w10 {
+    width: 10%;
+  }
+
+  .s\:w15 {
+    width: 15%;
+  }
+
+  .s\:w20 {
+    width: 20%;
+  }
+
   .s\:w25 {
     width: 25%;
   }
@@ -15284,6 +15360,18 @@
 
   .s\:vh100 {
     height: 100vh;
+  }
+
+  .s\:h25 {
+    height: 25%;
+  }
+
+  .s\:h50 {
+    height: 50%;
+  }
+
+  .s\:h75 {
+    height: 75%;
   }
 
   .s\:ttu {
@@ -20179,6 +20267,22 @@
     height: 100%;
   }
 
+  .m\:w5 {
+    width: 5%;
+  }
+
+  .m\:w10 {
+    width: 10%;
+  }
+
+  .m\:w15 {
+    width: 15%;
+  }
+
+  .m\:w20 {
+    width: 20%;
+  }
+
   .m\:w25 {
     width: 25%;
   }
@@ -20261,6 +20365,18 @@
 
   .m\:vh100 {
     height: 100vh;
+  }
+
+  .m\:h25 {
+    height: 25%;
+  }
+
+  .m\:h50 {
+    height: 50%;
+  }
+
+  .m\:h75 {
+    height: 75%;
   }
 
   .m\:ttu {
@@ -25156,6 +25272,22 @@
     height: 100%;
   }
 
+  .l\:w5 {
+    width: 5%;
+  }
+
+  .l\:w10 {
+    width: 10%;
+  }
+
+  .l\:w15 {
+    width: 15%;
+  }
+
+  .l\:w20 {
+    width: 20%;
+  }
+
   .l\:w25 {
     width: 25%;
   }
@@ -25238,6 +25370,18 @@
 
   .l\:vh100 {
     height: 100vh;
+  }
+
+  .l\:h25 {
+    height: 25%;
+  }
+
+  .l\:h50 {
+    height: 50%;
+  }
+
+  .l\:h75 {
+    height: 75%;
   }
 
   .l\:ttu {
@@ -30133,6 +30277,22 @@
     height: 100%;
   }
 
+  .xl\:w5 {
+    width: 5%;
+  }
+
+  .xl\:w10 {
+    width: 10%;
+  }
+
+  .xl\:w15 {
+    width: 15%;
+  }
+
+  .xl\:w20 {
+    width: 20%;
+  }
+
   .xl\:w25 {
     width: 25%;
   }
@@ -30215,6 +30375,18 @@
 
   .xl\:vh100 {
     height: 100vh;
+  }
+
+  .xl\:h25 {
+    height: 25%;
+  }
+
+  .xl\:h50 {
+    height: 50%;
+  }
+
+  .xl\:h75 {
+    height: 75%;
   }
 
   .xl\:ttu {
