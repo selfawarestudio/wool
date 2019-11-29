@@ -1,7 +1,7 @@
 {
   "name": "@selfaware/wool",
-  "version": "0.1.1",
-  "description": "CSS utility classes for Self Aware projects",
+  "version": "0.1.2",
+  "description": "A comprehensive and flexible utility-first styling solution.",
   "main": "index.js",
   "scripts": {
     "build": "sass --style=expanded src/index.scss dist/wool.css;",
@@ -9,6 +9,8 @@
     "cssnano": "postcss dist/wool.css > dist/wool.min.css"
   },
   "keywords": [],
+  "homepage": "https://github.com/selfawarestudio/wool",
+  "repository": "selfawarestudio/wool",
   "author": "Self Aware <howdy@selfaware.studio> (https://selfaware.studio)",
   "license": "MIT",
   "devDependencies": {
