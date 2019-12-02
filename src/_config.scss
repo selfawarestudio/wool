@@ -85,6 +85,10 @@ $border-widths: (
   '2': 2px
 ) !default;
 
+$border-radiuses: (
+  '50': 50%,
+) !default;
+
 $breakpoints: (
   xs: 415px,
   s: 650px,

@@ -1,0 +1,14 @@
+$flex-direction: (
+  'fr': (
+    flex-direction: row,
+  ),
+  'frr': (
+    flex-direction: row-reverse,
+  ),
+  'fc': (
+    flex-direction: column,
+  ),
+  'fcr': (
+    flex-direction: column-reverse,
+  ),
+);

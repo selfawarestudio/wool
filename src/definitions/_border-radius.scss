@@ -1,3 +1,7 @@
-$border-radius: (
-  'br50': ( border-radius: 50% )
-);
+$border-radius: ();
+
+@each $key, $value in $border-radiuses {
+  $border-radius: map-merge($border-radius, (
+    'br#{$key}': ( border-radius: $value )
+  ));
+}

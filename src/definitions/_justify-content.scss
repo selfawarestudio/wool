@@ -1,0 +1,17 @@
+$justify-content: (
+  'jcs': (
+    justify-content: flex-start,
+  ),
+  'jcc': (
+    justify-content: center,
+  ),
+  'jce': (
+    justify-content: flex-end,
+  ),
+  'jcb': (
+    justify-content: space-between,
+  ),
+  'jca': (
+    justify-content: space-around,
+  ),
+);

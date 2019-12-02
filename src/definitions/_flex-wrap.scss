@@ -1,0 +1,11 @@
+$flex-wrap: (
+  'fnw': (
+    flex-wrap: nowrap,
+  ),
+  'fw': (
+    flex-wrap: wrap,
+  ),
+  'fwr': (
+    flex-wrap: wrap-reverse,
+  ),
+);

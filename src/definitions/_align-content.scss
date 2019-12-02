@@ -1,0 +1,17 @@
+$align-content: (
+  'acs': (
+    align-content: flex-start,
+  ),
+  'acc': (
+    align-content: center,
+  ),
+  'ace': (
+    align-content: flex-end,
+  ),
+  'acb': (
+    align-content: space-between,
+  ),
+  'aca': (
+    align-content: space-around,
+  ),
+);
