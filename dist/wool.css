@@ -306,6 +306,22 @@
   padding-top: 56.25%;
 }
 
+.usn {
+  user-select: none;
+}
+
+.ust {
+  user-select: text;
+}
+
+.usau {
+  user-select: auto;
+}
+
+.usal {
+  user-select: all;
+}
+
 .wct {
   will-change: transform;
 }
