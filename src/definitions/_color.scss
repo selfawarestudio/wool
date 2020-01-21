@@ -1,7 +1,14 @@
 $color: ();
 @each $key, $value in $colors {
-  $color: map-merge($color, (
-    '#{$key}': ( color: $value ),
-    'bg-#{$key}': ( background-color: $value ),
-  ));
+  $color: map-merge(
+    $color,
+    (
+      '#{$key}': (
+        color: $value
+      ),
+      'bg-#{$key}': (
+        background-color: $value
+      )
+    )
+  );
 }

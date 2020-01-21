@@ -1,6 +1,11 @@
 $font-family: ();
 @each $key, $value in $font-stacks {
-  $font-family: map-merge($font-family, (
-    '#{$key}': ( font-family: unquote($value) )
-  ));
+  $font-family: map-merge(
+    $font-family,
+    (
+      '#{$key}': (
+        font-family: unquote($value)
+      )
+    )
+  );
 }

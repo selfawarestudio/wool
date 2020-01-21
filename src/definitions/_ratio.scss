@@ -21,7 +21,12 @@ $ratio: (
 }
 
 @each $key, $value in $aspect-ratios {
-  $ratio: map-merge($ratio, (
-    'r--#{$key}': ( padding-top: intrinsic-size($value))
-  ));
+  $ratio: map-merge(
+    $ratio,
+    (
+      'r--#{$key}': (
+        padding-top: intrinsic-size($value)
+      )
+    )
+  );
 }

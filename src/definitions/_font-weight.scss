@@ -5,8 +5,8 @@ $font-weight: ();
     $font-weight,
     (
       'fw#{$value}': (
-        font-weight: $value,
-      ),
+        font-weight: $value
+      )
     )
   );
 }

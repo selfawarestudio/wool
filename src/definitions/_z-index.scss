@@ -4,8 +4,8 @@ $z-index: ();
     $z-index,
     (
       'z#{$count}': (
-        z-index: $count,
-      ),
+        z-index: $count
+      )
     )
   );
 }
