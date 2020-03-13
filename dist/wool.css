@@ -572,6 +572,14 @@
   flex-grow: 0;
 }
 
+.fs1 {
+  flex-shrink: 1;
+}
+
+.fs0 {
+  flex-shrink: 0;
+}
+
 .fnw {
   flex-wrap: nowrap;
 }
@@ -5642,6 +5650,14 @@
 
   .xs\:fg0 {
     flex-grow: 0;
+  }
+
+  .xs\:fs1 {
+    flex-shrink: 1;
+  }
+
+  .xs\:fs0 {
+    flex-shrink: 0;
   }
 
   .xs\:fnw {
@@ -10716,6 +10732,14 @@
     flex-grow: 0;
   }
 
+  .s\:fs1 {
+    flex-shrink: 1;
+  }
+
+  .s\:fs0 {
+    flex-shrink: 0;
+  }
+
   .s\:fnw {
     flex-wrap: nowrap;
   }
@@ -15786,6 +15810,14 @@
 
   .m\:fg0 {
     flex-grow: 0;
+  }
+
+  .m\:fs1 {
+    flex-shrink: 1;
+  }
+
+  .m\:fs0 {
+    flex-shrink: 0;
   }
 
   .m\:fnw {
@@ -20860,6 +20892,14 @@
     flex-grow: 0;
   }
 
+  .l\:fs1 {
+    flex-shrink: 1;
+  }
+
+  .l\:fs0 {
+    flex-shrink: 0;
+  }
+
   .l\:fnw {
     flex-wrap: nowrap;
   }
@@ -25930,6 +25970,14 @@
 
   .xl\:fg0 {
     flex-grow: 0;
+  }
+
+  .xl\:fs1 {
+    flex-shrink: 1;
+  }
+
+  .xl\:fs0 {
+    flex-shrink: 0;
   }
 
   .xl\:fnw {

@@ -1,6 +1,6 @@
 @import 'util';
 @import 'config';
-@import 'definitions/index.scss';
+@import 'definitions';
 
 $static-definitions: map-collect(
   $a11y,
@@ -32,6 +32,7 @@ $responsive-definitions: map-collect(
   $display,
   $flex-direction,
   $flex-grow,
+  $flex-shrink,
   $flex-wrap,
   $flex,
   $font-size,
@@ -46,10 +47,7 @@ $responsive-definitions: map-collect(
   $text
 ) !default;
 
-$definitions: map-merge(
-  $static-definitions,
-  $responsive-definitions
-);
+$definitions: map-merge($static-definitions, $responsive-definitions);
 
 @each $selector, $styles in $definitions {
   .#{$selector} {
