@@ -1,6 +1,6 @@
 {
   "name": "@selfaware/wool",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A comprehensive and flexible utility-first styling solution.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,15 @@
     "watch": "sass --watch --style=expanded src/index.scss dist/wool.css;",
     "cssnano": "postcss dist/wool.css > dist/wool.min.css"
   },
-  "keywords": ["sass", "scss", "functional", "utility-first", "style", "styles", "styling"],
+  "keywords": [
+    "sass",
+    "scss",
+    "functional",
+    "utility-first",
+    "style",
+    "styles",
+    "styling"
+  ],
   "homepage": "https://github.com/selfawarestudio/wool",
   "repository": "selfawarestudio/wool",
   "author": "Self Aware <howdy@selfaware.studio> (https://selfaware.studio)",
