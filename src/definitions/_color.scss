@@ -1,4 +1,5 @@
 $color: ();
+
 @each $key, $value in $colors {
   $color: map-merge(
     $color,

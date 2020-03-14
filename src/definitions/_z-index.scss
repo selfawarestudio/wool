@@ -1,4 +1,5 @@
 $z-index: ();
+
 @for $count from -10 through 10 {
   $z-index: map-merge(
     $z-index,

@@ -1,4 +1,5 @@
 $max-width: ();
+
 @each $key, $value in $max-widths {
   $max-width: map-merge(
     $max-width,

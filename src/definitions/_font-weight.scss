@@ -1,4 +1,5 @@
 $font-weight: ();
+
 @for $count from 1 through 9 {
   $value: $count * 100;
   $font-weight: map-merge(
