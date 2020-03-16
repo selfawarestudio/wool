@@ -4,11 +4,8 @@ $color: ();
   $color: map-merge(
     $color,
     (
-      '#{$key}': (
+      'c-#{$key}': (
         color: $value
-      ),
-      'bg-#{$key}': (
-        background-color: $value
       )
     )
   );

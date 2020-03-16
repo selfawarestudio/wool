@@ -1,0 +1,12 @@
+$background-color: ();
+
+@each $key, $value in $colors {
+  $background-color: map-merge(
+    $background-color,
+    (
+      'bg-#{$key}': (
+        background-color: $value
+      )
+    )
+  );
+}
