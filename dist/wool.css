@@ -35,20 +35,12 @@
   border-radius: 50%;
 }
 
-.black {
+.c-black {
   color: #000000;
 }
 
-.bg-black {
-  background-color: #000000;
-}
-
-.white {
+.c-white {
   color: #ffffff;
-}
-
-.bg-white {
-  background-color: #ffffff;
 }
 
 .sans {
@@ -127,10 +119,6 @@
   object-fit: cover;
 }
 
-.o0 {
-  opacity: 0;
-}
-
 .o05 {
   opacity: 0.05;
 }
@@ -205,6 +193,10 @@
 
 .o95 {
   opacity: 0.95;
+}
+
+.o100 {
+  opacity: 0.1;
 }
 
 .oh {
@@ -332,43 +324,43 @@
   will-change: transform, opacity;
 }
 
-.z-10 {
+.zn10 {
   z-index: -10;
 }
 
-.z-9 {
+.zn9 {
   z-index: -9;
 }
 
-.z-8 {
+.zn8 {
   z-index: -8;
 }
 
-.z-7 {
+.zn7 {
   z-index: -7;
 }
 
-.z-6 {
+.zn6 {
   z-index: -6;
 }
 
-.z-5 {
+.zn5 {
   z-index: -5;
 }
 
-.z-4 {
+.zn4 {
   z-index: -4;
 }
 
-.z-3 {
+.zn3 {
   z-index: -3;
 }
 
-.z-2 {
+.zn2 {
   z-index: -2;
 }
 
-.z-1 {
+.zn1 {
   z-index: -1;
 }
 
@@ -538,12 +530,12 @@
   display: inline;
 }
 
-.dn {
-  display: none;
+.df {
+  display: flex;
 }
 
-.f {
-  display: flex;
+.dn {
+  display: none;
 }
 
 .fr {
@@ -5618,12 +5610,12 @@
     display: inline;
   }
 
-  .xs\:dn {
-    display: none;
+  .xs\:df {
+    display: flex;
   }
 
-  .xs\:f {
-    display: flex;
+  .xs\:dn {
+    display: none;
   }
 
   .xs\:fr {
@@ -10698,12 +10690,12 @@
     display: inline;
   }
 
-  .s\:dn {
-    display: none;
+  .s\:df {
+    display: flex;
   }
 
-  .s\:f {
-    display: flex;
+  .s\:dn {
+    display: none;
   }
 
   .s\:fr {
@@ -15778,12 +15770,12 @@
     display: inline;
   }
 
-  .m\:dn {
-    display: none;
+  .m\:df {
+    display: flex;
   }
 
-  .m\:f {
-    display: flex;
+  .m\:dn {
+    display: none;
   }
 
   .m\:fr {
@@ -20858,12 +20850,12 @@
     display: inline;
   }
 
-  .l\:dn {
-    display: none;
+  .l\:df {
+    display: flex;
   }
 
-  .l\:f {
-    display: flex;
+  .l\:dn {
+    display: none;
   }
 
   .l\:fr {
@@ -25938,12 +25930,12 @@
     display: inline;
   }
 
-  .xl\:dn {
-    display: none;
+  .xl\:df {
+    display: flex;
   }
 
-  .xl\:f {
-    display: flex;
+  .xl\:dn {
+    display: none;
   }
 
   .xl\:fr {
