@@ -3457,6 +3457,10 @@
   object-fit: cover;
 }
 
+.o0 {
+  opacity: 0;
+}
+
 .o05 {
   opacity: 0.05;
 }
@@ -8953,6 +8957,10 @@
 
   .xs\:o-cover {
     object-fit: cover;
+  }
+
+  .xs\:o0 {
+    opacity: 0;
   }
 
   .xs\:o05 {
@@ -14453,6 +14461,10 @@
     object-fit: cover;
   }
 
+  .s\:o0 {
+    opacity: 0;
+  }
+
   .s\:o05 {
     opacity: 0.05;
   }
@@ -19949,6 +19961,10 @@
 
   .m\:o-cover {
     object-fit: cover;
+  }
+
+  .m\:o0 {
+    opacity: 0;
   }
 
   .m\:o05 {
@@ -25449,6 +25465,10 @@
     object-fit: cover;
   }
 
+  .l\:o0 {
+    opacity: 0;
+  }
+
   .l\:o05 {
     opacity: 0.05;
   }
@@ -30945,6 +30965,10 @@
 
   .xl\:o-cover {
     object-fit: cover;
+  }
+
+  .xl\:o0 {
+    opacity: 0;
   }
 
   .xl\:o05 {
