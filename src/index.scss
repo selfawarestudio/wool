@@ -2,52 +2,48 @@
 @import 'config';
 @import 'definitions';
 
-$static-definitions: map-collect(
+$definitions: map-collect(
   $a11y,
-  $bg,
-  $border-radius,
-  $color,
-  $font-family,
-  $font-style,
-  $font-weight,
-  $max-width,
-  $object-fit,
-  $opacity,
-  $overflow,
-  $pointer-events,
-  $ratio,
-  $user-select,
-  $will-change,
-  $z-index
-) !default;
-
-$responsive-definitions: map-collect(
   $align-content,
   $align-items,
   $align-self,
-  $border,
-  $border-width,
-  $border-style,
+  $background-color,
+  $bg,
   $border-color,
+  $border-radius,
+  $border-style,
+  $border-width,
+  $border,
+  $color,
   $display,
   $flex-direction,
   $flex-grow,
   $flex-shrink,
   $flex-wrap,
   $flex,
+  $font-family,
   $font-size,
+  $font-style,
+  $font-weight,
   $justify-content,
   $letter-spacing,
   $line-height,
   $margin,
+  $max-width,
+  $object-fit,
+  $opacity,
   $order,
+  $overflow,
   $padding,
+  $pointer-events,
   $position,
+  $ratio,
   $sizing,
-  $text
-) !default;
-
-$definitions: map-merge($static-definitions, $responsive-definitions);
+  $text,
+  $user-select,
+  $will-change,
+  $z-index
+);
 
 @each $selector, $styles in $definitions {
   .#{$selector} {
@@ -59,7 +55,7 @@ $definitions: map-merge($static-definitions, $responsive-definitions);
 
 @each $prefix, $query in $media-queries {
   @media ($query) {
-    @each $selector, $styles in $responsive-definitions {
+    @each $selector, $styles in $definitions {
       .#{$prefix}\:#{$selector} {
         @each $key, $value in $styles {
           #{$key}: $value;

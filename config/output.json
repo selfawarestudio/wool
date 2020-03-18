@@ -1,7 +1,6 @@
 [
   {
     "name": "a11y",
-    "responsive": false,
     "configurable": false,
     "rules": [
       {
@@ -36,8 +35,175 @@
     ]
   },
   {
+    "name": "align-content",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "acs",
+        "declarations": [
+          {
+            "property": "align-content",
+            "propertyValue": "flex-start"
+          }
+        ]
+      },
+      {
+        "classname": "acc",
+        "declarations": [
+          {
+            "property": "align-content",
+            "propertyValue": "center"
+          }
+        ]
+      },
+      {
+        "classname": "ace",
+        "declarations": [
+          {
+            "property": "align-content",
+            "propertyValue": "flex-end"
+          }
+        ]
+      },
+      {
+        "classname": "acb",
+        "declarations": [
+          {
+            "property": "align-content",
+            "propertyValue": "space-between"
+          }
+        ]
+      },
+      {
+        "classname": "aca",
+        "declarations": [
+          {
+            "property": "align-content",
+            "propertyValue": "space-around"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "align-items",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "ais",
+        "declarations": [
+          {
+            "property": "align-items",
+            "propertyValue": "flex-start"
+          }
+        ]
+      },
+      {
+        "classname": "aic",
+        "declarations": [
+          {
+            "property": "align-items",
+            "propertyValue": "center"
+          }
+        ]
+      },
+      {
+        "classname": "aie",
+        "declarations": [
+          {
+            "property": "align-items",
+            "propertyValue": "flex-end"
+          }
+        ]
+      },
+      {
+        "classname": "aib",
+        "declarations": [
+          {
+            "property": "align-items",
+            "propertyValue": "baseline"
+          }
+        ]
+      },
+      {
+        "classname": "aistr",
+        "declarations": [
+          {
+            "property": "align-items",
+            "propertyValue": "stretch"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "align-self",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "asa",
+        "declarations": [
+          {
+            "property": "align-self",
+            "propertyValue": "auto"
+          }
+        ]
+      },
+      {
+        "classname": "ass",
+        "declarations": [
+          {
+            "property": "align-self",
+            "propertyValue": "flex-start"
+          }
+        ]
+      },
+      {
+        "classname": "asc",
+        "declarations": [
+          {
+            "property": "align-self",
+            "propertyValue": "center"
+          }
+        ]
+      },
+      {
+        "classname": "ase",
+        "declarations": [
+          {
+            "property": "align-self",
+            "propertyValue": "flex-end"
+          }
+        ]
+      },
+      {
+        "classname": "asstr",
+        "declarations": [
+          {
+            "property": "align-self",
+            "propertyValue": "stretch"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "background-color",
+    "configurable": true,
+    "rules": [
+      {
+        "classname": "bg-<key>",
+        "declarations": [
+          {
+            "property": "background-color",
+            "propertyValue": "<value>"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "bg",
-    "responsive": false,
     "configurable": false,
     "rules": [
       {
@@ -97,8 +263,22 @@
     ]
   },
   {
+    "name": "border-color",
+    "configurable": true,
+    "rules": [
+      {
+        "classname": "bc-<key>",
+        "declarations": [
+          {
+            "property": "border-color",
+            "propertyValue": "<value>"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "border-radius",
-    "responsive": false,
     "configurable": true,
     "rules": [
       {
@@ -113,8 +293,123 @@
     ]
   },
   {
+    "name": "border-style",
+    "configurable": true,
+    "rules": [
+      {
+        "classname": "bs-<key>",
+        "declarations": [
+          {
+            "property": "border-style",
+            "propertyValue": "<value>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "border-width",
+    "configurable": true,
+    "rules": [
+      {
+        "classname": "bw<key>",
+        "declarations": [
+          {
+            "property": "border-width",
+            "propertyValue": "<value>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "border",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "bn",
+        "declarations": [
+          {
+            "property": "border",
+            "propertyValue": "none"
+          }
+        ]
+      },
+      {
+        "classname": "ba",
+        "declarations": [
+          {
+            "property": "border",
+            "propertyValue": "$default-border"
+          }
+        ]
+      },
+      {
+        "classname": "bt",
+        "declarations": [
+          {
+            "property": "border-top",
+            "propertyValue": "$default-border"
+          }
+        ]
+      },
+      {
+        "classname": "bv",
+        "declarations": [
+          {
+            "property": "border-top",
+            "propertyValue": "$default-border"
+          },
+          {
+            "property": "border-bottom",
+            "propertyValue": "$default-border"
+          }
+        ]
+      },
+      {
+        "classname": "bb",
+        "declarations": [
+          {
+            "property": "border-bottom",
+            "propertyValue": "$default-border"
+          }
+        ]
+      },
+      {
+        "classname": "bl",
+        "declarations": [
+          {
+            "property": "border-left",
+            "propertyValue": "$default-border"
+          }
+        ]
+      },
+      {
+        "classname": "bh",
+        "declarations": [
+          {
+            "property": "border-left",
+            "propertyValue": "$default-border"
+          },
+          {
+            "property": "border-right",
+            "propertyValue": "$default-border"
+          }
+        ]
+      },
+      {
+        "classname": "br",
+        "declarations": [
+          {
+            "property": "border-right",
+            "propertyValue": "$default-border"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "color",
-    "responsive": false,
     "configurable": true,
     "rules": [
       {
@@ -129,8 +424,223 @@
     ]
   },
   {
+    "name": "display",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "db",
+        "declarations": [
+          {
+            "property": "display",
+            "propertyValue": "block"
+          }
+        ]
+      },
+      {
+        "classname": "dib",
+        "declarations": [
+          {
+            "property": "display",
+            "propertyValue": "inline-block"
+          }
+        ]
+      },
+      {
+        "classname": "di",
+        "declarations": [
+          {
+            "property": "display",
+            "propertyValue": "inline"
+          }
+        ]
+      },
+      {
+        "classname": "df",
+        "declarations": [
+          {
+            "property": "display",
+            "propertyValue": "flex"
+          }
+        ]
+      },
+      {
+        "classname": "dn",
+        "declarations": [
+          {
+            "property": "display",
+            "propertyValue": "none"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "flex-direction",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "fr",
+        "declarations": [
+          {
+            "property": "flex-direction",
+            "propertyValue": "row"
+          }
+        ]
+      },
+      {
+        "classname": "frr",
+        "declarations": [
+          {
+            "property": "flex-direction",
+            "propertyValue": "row-reverse"
+          }
+        ]
+      },
+      {
+        "classname": "fc",
+        "declarations": [
+          {
+            "property": "flex-direction",
+            "propertyValue": "column"
+          }
+        ]
+      },
+      {
+        "classname": "fcr",
+        "declarations": [
+          {
+            "property": "flex-direction",
+            "propertyValue": "column-reverse"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "flex-grow",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "fg1",
+        "declarations": [
+          {
+            "property": "flex-grow",
+            "propertyValue": 1
+          }
+        ]
+      },
+      {
+        "classname": "fg0",
+        "declarations": [
+          {
+            "property": "flex-grow",
+            "propertyValue": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "flex-shrink",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "fs1",
+        "declarations": [
+          {
+            "property": "flex-shrink",
+            "propertyValue": 1
+          }
+        ]
+      },
+      {
+        "classname": "fs0",
+        "declarations": [
+          {
+            "property": "flex-shrink",
+            "propertyValue": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "flex-wrap",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "fnw",
+        "declarations": [
+          {
+            "property": "flex-wrap",
+            "propertyValue": "nowrap"
+          }
+        ]
+      },
+      {
+        "classname": "fw",
+        "declarations": [
+          {
+            "property": "flex-wrap",
+            "propertyValue": "wrap"
+          }
+        ]
+      },
+      {
+        "classname": "fwr",
+        "declarations": [
+          {
+            "property": "flex-wrap",
+            "propertyValue": "wrap-reverse"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "flex",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "fi",
+        "declarations": [
+          {
+            "property": "flex",
+            "propertyValue": 0
+          }
+        ]
+      },
+      {
+        "classname": "f1",
+        "declarations": [
+          {
+            "property": "flex",
+            "propertyValue": 1
+          }
+        ]
+      },
+      {
+        "classname": "fa",
+        "declarations": [
+          {
+            "property": "flex",
+            "propertyValue": 1
+          }
+        ]
+      },
+      {
+        "classname": "fn",
+        "declarations": [
+          {
+            "property": "flex",
+            "propertyValue": "none"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "font-family",
-    "responsive": false,
     "configurable": true,
     "rules": [
       {
@@ -145,8 +655,22 @@
     ]
   },
   {
+    "name": "font-size",
+    "configurable": true,
+    "rules": [
+      {
+        "classname": "f<key>",
+        "declarations": [
+          {
+            "property": "font-size",
+            "propertyValue": "<value>"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "font-style",
-    "responsive": false,
     "configurable": false,
     "rules": [
       {
@@ -162,7 +686,6 @@
   },
   {
     "name": "font-weight",
-    "responsive": false,
     "configurable": false,
     "rules": [
       {
@@ -249,8 +772,236 @@
     ]
   },
   {
+    "name": "justify-content",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "jcs",
+        "declarations": [
+          {
+            "property": "justify-content",
+            "propertyValue": "flex-start"
+          }
+        ]
+      },
+      {
+        "classname": "jcc",
+        "declarations": [
+          {
+            "property": "justify-content",
+            "propertyValue": "center"
+          }
+        ]
+      },
+      {
+        "classname": "jce",
+        "declarations": [
+          {
+            "property": "justify-content",
+            "propertyValue": "flex-end"
+          }
+        ]
+      },
+      {
+        "classname": "jcb",
+        "declarations": [
+          {
+            "property": "justify-content",
+            "propertyValue": "space-between"
+          }
+        ]
+      },
+      {
+        "classname": "jca",
+        "declarations": [
+          {
+            "property": "justify-content",
+            "propertyValue": "space-around"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "letter-spacing",
+    "configurable": true,
+    "rules": [
+      {
+        "classname": "ls<key>",
+        "declarations": [
+          {
+            "property": "letter-spacing",
+            "propertyValue": "<value>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "line-height",
+    "configurable": true,
+    "rules": [
+      {
+        "classname": "lh<key>",
+        "declarations": [
+          {
+            "property": "line-height",
+            "propertyValue": "<value>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "margin",
+    "configurable": true,
+    "rules": [
+      {
+        "classname": "ma",
+        "declarations": [
+          {
+            "property": "margin",
+            "propertyValue": "auto"
+          }
+        ]
+      },
+      {
+        "classname": "mta",
+        "declarations": [
+          {
+            "property": "margin-top",
+            "propertyValue": "auto"
+          }
+        ]
+      },
+      {
+        "classname": "mva",
+        "declarations": [
+          {
+            "property": "margin-top",
+            "propertyValue": "auto"
+          },
+          {
+            "property": "margin-bottom",
+            "propertyValue": "auto"
+          }
+        ]
+      },
+      {
+        "classname": "mba",
+        "declarations": [
+          {
+            "property": "margin-bottom",
+            "propertyValue": "auto"
+          }
+        ]
+      },
+      {
+        "classname": "mla",
+        "declarations": [
+          {
+            "property": "margin-left",
+            "propertyValue": "auto"
+          }
+        ]
+      },
+      {
+        "classname": "mha",
+        "declarations": [
+          {
+            "property": "margin-left",
+            "propertyValue": "auto"
+          },
+          {
+            "property": "margin-right",
+            "propertyValue": "auto"
+          }
+        ]
+      },
+      {
+        "classname": "mra",
+        "declarations": [
+          {
+            "property": "margin-right",
+            "propertyValue": "auto"
+          }
+        ]
+      },
+      {
+        "classname": "m<key>",
+        "declarations": [
+          {
+            "property": "margin",
+            "propertyValue": "<value>"
+          }
+        ]
+      },
+      {
+        "classname": "mt<key>",
+        "declarations": [
+          {
+            "property": "margin-top",
+            "propertyValue": "<value>"
+          }
+        ]
+      },
+      {
+        "classname": "mv<key>",
+        "declarations": [
+          {
+            "property": "margin-top",
+            "propertyValue": "<value>"
+          },
+          {
+            "property": "margin-bottom",
+            "propertyValue": "<value>"
+          }
+        ]
+      },
+      {
+        "classname": "mb<key>",
+        "declarations": [
+          {
+            "property": "margin-bottom",
+            "propertyValue": "<value>"
+          }
+        ]
+      },
+      {
+        "classname": "ml<key>",
+        "declarations": [
+          {
+            "property": "margin-left",
+            "propertyValue": "<value>"
+          }
+        ]
+      },
+      {
+        "classname": "mh<key>",
+        "declarations": [
+          {
+            "property": "margin-left",
+            "propertyValue": "<value>"
+          },
+          {
+            "property": "margin-right",
+            "propertyValue": "<value>"
+          }
+        ]
+      },
+      {
+        "classname": "mr<key>",
+        "declarations": [
+          {
+            "property": "margin-right",
+            "propertyValue": "<value>"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "max-width",
-    "responsive": false,
     "configurable": true,
     "rules": [
       {
@@ -266,7 +1017,6 @@
   },
   {
     "name": "object-fit",
-    "responsive": false,
     "configurable": false,
     "rules": [
       {
@@ -291,7 +1041,6 @@
   },
   {
     "name": "opacity",
-    "responsive": false,
     "configurable": false,
     "rules": [
       {
@@ -477,8 +1226,22 @@
     ]
   },
   {
+    "name": "order",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "on1",
+        "declarations": [
+          {
+            "property": "order",
+            "propertyValue": "-"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "overflow",
-    "responsive": false,
     "configurable": false,
     "rules": [
       {
@@ -519,1146 +1282,7 @@
     ]
   },
   {
-    "name": "pointer-events",
-    "responsive": false,
-    "configurable": false,
-    "rules": [
-      {
-        "classname": "pen",
-        "declarations": [
-          {
-            "property": "pointer-events",
-            "propertyValue": "none"
-          }
-        ]
-      },
-      {
-        "classname": "pea",
-        "declarations": [
-          {
-            "property": "pointer-events",
-            "propertyValue": "auto"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "ratio",
-    "responsive": false,
-    "configurable": true,
-    "rules": [
-      {
-        "classname": "r",
-        "declarations": [
-          {
-            "property": "height",
-            "propertyValue": 0
-          },
-          {
-            "property": "position",
-            "propertyValue": "relative"
-          }
-        ]
-      },
-      {
-        "classname": "ro",
-        "declarations": [
-          {
-            "property": "position",
-            "propertyValue": "absolute"
-          },
-          {
-            "property": "top",
-            "propertyValue": 0
-          },
-          {
-            "property": "right",
-            "propertyValue": 0
-          },
-          {
-            "property": "bottom",
-            "propertyValue": 0
-          },
-          {
-            "property": "left",
-            "propertyValue": 0
-          },
-          {
-            "property": "width",
-            "propertyValue": "100%"
-          },
-          {
-            "property": "height",
-            "propertyValue": "100%"
-          }
-        ]
-      },
-      {
-        "classname": "r--<key>",
-        "declarations": [
-          {
-            "property": "padding-top",
-            "propertyValue": "intrinsic-size(<value>)"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "user-select",
-    "responsive": false,
-    "configurable": false,
-    "rules": [
-      {
-        "classname": "usn",
-        "declarations": [
-          {
-            "property": "user-select",
-            "propertyValue": "none"
-          }
-        ]
-      },
-      {
-        "classname": "ust",
-        "declarations": [
-          {
-            "property": "user-select",
-            "propertyValue": "text"
-          }
-        ]
-      },
-      {
-        "classname": "usau",
-        "declarations": [
-          {
-            "property": "user-select",
-            "propertyValue": "auto"
-          }
-        ]
-      },
-      {
-        "classname": "usal",
-        "declarations": [
-          {
-            "property": "user-select",
-            "propertyValue": "all"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "will-change",
-    "responsive": false,
-    "configurable": false,
-    "rules": [
-      {
-        "classname": "wct",
-        "declarations": [
-          {
-            "property": "will-change",
-            "propertyValue": "transform"
-          }
-        ]
-      },
-      {
-        "classname": "wco",
-        "declarations": [
-          {
-            "property": "will-change",
-            "propertyValue": "opacity"
-          }
-        ]
-      },
-      {
-        "classname": "wcto",
-        "declarations": [
-          {
-            "property": "will-change",
-            "propertyValue": "transform, opacity"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "z-index",
-    "responsive": false,
-    "configurable": false,
-    "rules": [
-      {
-        "classname": "zn10",
-        "declarations": [
-          {
-            "property": "z-index",
-            "propertyValue": "-"
-          }
-        ]
-      },
-      {
-        "classname": "zn9",
-        "declarations": [
-          {
-            "property": "z-index",
-            "propertyValue": "-"
-          }
-        ]
-      },
-      {
-        "classname": "zn8",
-        "declarations": [
-          {
-            "property": "z-index",
-            "propertyValue": "-"
-          }
-        ]
-      },
-      {
-        "classname": "zn7",
-        "declarations": [
-          {
-            "property": "z-index",
-            "propertyValue": "-"
-          }
-        ]
-      },
-      {
-        "classname": "zn6",
-        "declarations": [
-          {
-            "property": "z-index",
-            "propertyValue": "-"
-          }
-        ]
-      },
-      {
-        "classname": "zn5",
-        "declarations": [
-          {
-            "property": "z-index",
-            "propertyValue": "-"
-          }
-        ]
-      },
-      {
-        "classname": "zn4",
-        "declarations": [
-          {
-            "property": "z-index",
-            "propertyValue": "-"
-          }
-        ]
-      },
-      {
-        "classname": "zn3",
-        "declarations": [
-          {
-            "property": "z-index",
-            "propertyValue": "-"
-          }
-        ]
-      },
-      {
-        "classname": "zn2",
-        "declarations": [
-          {
-            "property": "z-index",
-            "propertyValue": "-"
-          }
-        ]
-      },
-      {
-        "classname": "zn1",
-        "declarations": [
-          {
-            "property": "z-index",
-            "propertyValue": "-"
-          }
-        ]
-      },
-      {
-        "classname": "z0",
-        "declarations": [
-          {
-            "property": "z-index",
-            "propertyValue": 0
-          }
-        ]
-      },
-      {
-        "classname": "z1",
-        "declarations": [
-          {
-            "property": "z-index",
-            "propertyValue": 1
-          }
-        ]
-      },
-      {
-        "classname": "z2",
-        "declarations": [
-          {
-            "property": "z-index",
-            "propertyValue": 2
-          }
-        ]
-      },
-      {
-        "classname": "z3",
-        "declarations": [
-          {
-            "property": "z-index",
-            "propertyValue": 3
-          }
-        ]
-      },
-      {
-        "classname": "z4",
-        "declarations": [
-          {
-            "property": "z-index",
-            "propertyValue": 4
-          }
-        ]
-      },
-      {
-        "classname": "z5",
-        "declarations": [
-          {
-            "property": "z-index",
-            "propertyValue": 5
-          }
-        ]
-      },
-      {
-        "classname": "z6",
-        "declarations": [
-          {
-            "property": "z-index",
-            "propertyValue": 6
-          }
-        ]
-      },
-      {
-        "classname": "z7",
-        "declarations": [
-          {
-            "property": "z-index",
-            "propertyValue": 7
-          }
-        ]
-      },
-      {
-        "classname": "z8",
-        "declarations": [
-          {
-            "property": "z-index",
-            "propertyValue": 8
-          }
-        ]
-      },
-      {
-        "classname": "z9",
-        "declarations": [
-          {
-            "property": "z-index",
-            "propertyValue": 9
-          }
-        ]
-      },
-      {
-        "classname": "z10",
-        "declarations": [
-          {
-            "property": "z-index",
-            "propertyValue": 10
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "align-content",
-    "responsive": true,
-    "configurable": false,
-    "rules": [
-      {
-        "classname": "acs",
-        "declarations": [
-          {
-            "property": "align-content",
-            "propertyValue": "flex-start"
-          }
-        ]
-      },
-      {
-        "classname": "acc",
-        "declarations": [
-          {
-            "property": "align-content",
-            "propertyValue": "center"
-          }
-        ]
-      },
-      {
-        "classname": "ace",
-        "declarations": [
-          {
-            "property": "align-content",
-            "propertyValue": "flex-end"
-          }
-        ]
-      },
-      {
-        "classname": "acb",
-        "declarations": [
-          {
-            "property": "align-content",
-            "propertyValue": "space-between"
-          }
-        ]
-      },
-      {
-        "classname": "aca",
-        "declarations": [
-          {
-            "property": "align-content",
-            "propertyValue": "space-around"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "align-items",
-    "responsive": true,
-    "configurable": false,
-    "rules": [
-      {
-        "classname": "ais",
-        "declarations": [
-          {
-            "property": "align-items",
-            "propertyValue": "flex-start"
-          }
-        ]
-      },
-      {
-        "classname": "aic",
-        "declarations": [
-          {
-            "property": "align-items",
-            "propertyValue": "center"
-          }
-        ]
-      },
-      {
-        "classname": "aie",
-        "declarations": [
-          {
-            "property": "align-items",
-            "propertyValue": "flex-end"
-          }
-        ]
-      },
-      {
-        "classname": "aib",
-        "declarations": [
-          {
-            "property": "align-items",
-            "propertyValue": "baseline"
-          }
-        ]
-      },
-      {
-        "classname": "aistr",
-        "declarations": [
-          {
-            "property": "align-items",
-            "propertyValue": "stretch"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "align-self",
-    "responsive": true,
-    "configurable": false,
-    "rules": [
-      {
-        "classname": "asa",
-        "declarations": [
-          {
-            "property": "align-self",
-            "propertyValue": "auto"
-          }
-        ]
-      },
-      {
-        "classname": "ass",
-        "declarations": [
-          {
-            "property": "align-self",
-            "propertyValue": "flex-start"
-          }
-        ]
-      },
-      {
-        "classname": "asc",
-        "declarations": [
-          {
-            "property": "align-self",
-            "propertyValue": "center"
-          }
-        ]
-      },
-      {
-        "classname": "ase",
-        "declarations": [
-          {
-            "property": "align-self",
-            "propertyValue": "flex-end"
-          }
-        ]
-      },
-      {
-        "classname": "asstr",
-        "declarations": [
-          {
-            "property": "align-self",
-            "propertyValue": "stretch"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "border",
-    "responsive": true,
-    "configurable": false,
-    "rules": [
-      {
-        "classname": "bn",
-        "declarations": [
-          {
-            "property": "border",
-            "propertyValue": "none"
-          }
-        ]
-      },
-      {
-        "classname": "ba",
-        "declarations": [
-          {
-            "property": "border",
-            "propertyValue": "$default-border"
-          }
-        ]
-      },
-      {
-        "classname": "bt",
-        "declarations": [
-          {
-            "property": "border-top",
-            "propertyValue": "$default-border"
-          }
-        ]
-      },
-      {
-        "classname": "bv",
-        "declarations": [
-          {
-            "property": "border-top",
-            "propertyValue": "$default-border"
-          },
-          {
-            "property": "border-bottom",
-            "propertyValue": "$default-border"
-          }
-        ]
-      },
-      {
-        "classname": "bb",
-        "declarations": [
-          {
-            "property": "border-bottom",
-            "propertyValue": "$default-border"
-          }
-        ]
-      },
-      {
-        "classname": "bl",
-        "declarations": [
-          {
-            "property": "border-left",
-            "propertyValue": "$default-border"
-          }
-        ]
-      },
-      {
-        "classname": "bh",
-        "declarations": [
-          {
-            "property": "border-left",
-            "propertyValue": "$default-border"
-          },
-          {
-            "property": "border-right",
-            "propertyValue": "$default-border"
-          }
-        ]
-      },
-      {
-        "classname": "br",
-        "declarations": [
-          {
-            "property": "border-right",
-            "propertyValue": "$default-border"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "border-width",
-    "responsive": true,
-    "configurable": true,
-    "rules": [
-      {
-        "classname": "bw<key>",
-        "declarations": [
-          {
-            "property": "border-width",
-            "propertyValue": "<value>"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "border-style",
-    "responsive": true,
-    "configurable": true,
-    "rules": [
-      {
-        "classname": "bs-<key>",
-        "declarations": [
-          {
-            "property": "border-style",
-            "propertyValue": "<value>"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "border-color",
-    "responsive": true,
-    "configurable": true,
-    "rules": [
-      {
-        "classname": "bc-<key>",
-        "declarations": [
-          {
-            "property": "border-color",
-            "propertyValue": "<value>"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "display",
-    "responsive": true,
-    "configurable": false,
-    "rules": [
-      {
-        "classname": "db",
-        "declarations": [
-          {
-            "property": "display",
-            "propertyValue": "block"
-          }
-        ]
-      },
-      {
-        "classname": "dib",
-        "declarations": [
-          {
-            "property": "display",
-            "propertyValue": "inline-block"
-          }
-        ]
-      },
-      {
-        "classname": "di",
-        "declarations": [
-          {
-            "property": "display",
-            "propertyValue": "inline"
-          }
-        ]
-      },
-      {
-        "classname": "df",
-        "declarations": [
-          {
-            "property": "display",
-            "propertyValue": "flex"
-          }
-        ]
-      },
-      {
-        "classname": "dn",
-        "declarations": [
-          {
-            "property": "display",
-            "propertyValue": "none"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "flex-direction",
-    "responsive": true,
-    "configurable": false,
-    "rules": [
-      {
-        "classname": "fr",
-        "declarations": [
-          {
-            "property": "flex-direction",
-            "propertyValue": "row"
-          }
-        ]
-      },
-      {
-        "classname": "frr",
-        "declarations": [
-          {
-            "property": "flex-direction",
-            "propertyValue": "row-reverse"
-          }
-        ]
-      },
-      {
-        "classname": "fc",
-        "declarations": [
-          {
-            "property": "flex-direction",
-            "propertyValue": "column"
-          }
-        ]
-      },
-      {
-        "classname": "fcr",
-        "declarations": [
-          {
-            "property": "flex-direction",
-            "propertyValue": "column-reverse"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "flex-grow",
-    "responsive": true,
-    "configurable": false,
-    "rules": [
-      {
-        "classname": "fg1",
-        "declarations": [
-          {
-            "property": "flex-grow",
-            "propertyValue": 1
-          }
-        ]
-      },
-      {
-        "classname": "fg0",
-        "declarations": [
-          {
-            "property": "flex-grow",
-            "propertyValue": 0
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "flex-shrink",
-    "responsive": true,
-    "configurable": false,
-    "rules": [
-      {
-        "classname": "fs1",
-        "declarations": [
-          {
-            "property": "flex-shrink",
-            "propertyValue": 1
-          }
-        ]
-      },
-      {
-        "classname": "fs0",
-        "declarations": [
-          {
-            "property": "flex-shrink",
-            "propertyValue": 0
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "flex-wrap",
-    "responsive": true,
-    "configurable": false,
-    "rules": [
-      {
-        "classname": "fnw",
-        "declarations": [
-          {
-            "property": "flex-wrap",
-            "propertyValue": "nowrap"
-          }
-        ]
-      },
-      {
-        "classname": "fw",
-        "declarations": [
-          {
-            "property": "flex-wrap",
-            "propertyValue": "wrap"
-          }
-        ]
-      },
-      {
-        "classname": "fwr",
-        "declarations": [
-          {
-            "property": "flex-wrap",
-            "propertyValue": "wrap-reverse"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "flex",
-    "responsive": true,
-    "configurable": false,
-    "rules": [
-      {
-        "classname": "fi",
-        "declarations": [
-          {
-            "property": "flex",
-            "propertyValue": 0
-          }
-        ]
-      },
-      {
-        "classname": "f1",
-        "declarations": [
-          {
-            "property": "flex",
-            "propertyValue": 1
-          }
-        ]
-      },
-      {
-        "classname": "fa",
-        "declarations": [
-          {
-            "property": "flex",
-            "propertyValue": 1
-          }
-        ]
-      },
-      {
-        "classname": "fn",
-        "declarations": [
-          {
-            "property": "flex",
-            "propertyValue": "none"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "font-size",
-    "responsive": true,
-    "configurable": true,
-    "rules": [
-      {
-        "classname": "f<key>",
-        "declarations": [
-          {
-            "property": "font-size",
-            "propertyValue": "<value>"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "justify-content",
-    "responsive": true,
-    "configurable": false,
-    "rules": [
-      {
-        "classname": "jcs",
-        "declarations": [
-          {
-            "property": "justify-content",
-            "propertyValue": "flex-start"
-          }
-        ]
-      },
-      {
-        "classname": "jcc",
-        "declarations": [
-          {
-            "property": "justify-content",
-            "propertyValue": "center"
-          }
-        ]
-      },
-      {
-        "classname": "jce",
-        "declarations": [
-          {
-            "property": "justify-content",
-            "propertyValue": "flex-end"
-          }
-        ]
-      },
-      {
-        "classname": "jcb",
-        "declarations": [
-          {
-            "property": "justify-content",
-            "propertyValue": "space-between"
-          }
-        ]
-      },
-      {
-        "classname": "jca",
-        "declarations": [
-          {
-            "property": "justify-content",
-            "propertyValue": "space-around"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "letter-spacing",
-    "responsive": true,
-    "configurable": true,
-    "rules": [
-      {
-        "classname": "ls<key>",
-        "declarations": [
-          {
-            "property": "letter-spacing",
-            "propertyValue": "<value>"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "line-height",
-    "responsive": true,
-    "configurable": true,
-    "rules": [
-      {
-        "classname": "lh<key>",
-        "declarations": [
-          {
-            "property": "line-height",
-            "propertyValue": "<value>"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "margin",
-    "responsive": true,
-    "configurable": true,
-    "rules": [
-      {
-        "classname": "ma",
-        "declarations": [
-          {
-            "property": "margin",
-            "propertyValue": "auto"
-          }
-        ]
-      },
-      {
-        "classname": "mta",
-        "declarations": [
-          {
-            "property": "margin-top",
-            "propertyValue": "auto"
-          }
-        ]
-      },
-      {
-        "classname": "mva",
-        "declarations": [
-          {
-            "property": "margin-top",
-            "propertyValue": "auto"
-          },
-          {
-            "property": "margin-bottom",
-            "propertyValue": "auto"
-          }
-        ]
-      },
-      {
-        "classname": "mba",
-        "declarations": [
-          {
-            "property": "margin-bottom",
-            "propertyValue": "auto"
-          }
-        ]
-      },
-      {
-        "classname": "mla",
-        "declarations": [
-          {
-            "property": "margin-left",
-            "propertyValue": "auto"
-          }
-        ]
-      },
-      {
-        "classname": "mha",
-        "declarations": [
-          {
-            "property": "margin-left",
-            "propertyValue": "auto"
-          },
-          {
-            "property": "margin-right",
-            "propertyValue": "auto"
-          }
-        ]
-      },
-      {
-        "classname": "mra",
-        "declarations": [
-          {
-            "property": "margin-right",
-            "propertyValue": "auto"
-          }
-        ]
-      },
-      {
-        "classname": "m<key>",
-        "declarations": [
-          {
-            "property": "margin",
-            "propertyValue": "<value>"
-          }
-        ]
-      },
-      {
-        "classname": "mt<key>",
-        "declarations": [
-          {
-            "property": "margin-top",
-            "propertyValue": "<value>"
-          }
-        ]
-      },
-      {
-        "classname": "mv<key>",
-        "declarations": [
-          {
-            "property": "margin-top",
-            "propertyValue": "<value>"
-          },
-          {
-            "property": "margin-bottom",
-            "propertyValue": "<value>"
-          }
-        ]
-      },
-      {
-        "classname": "mb<key>",
-        "declarations": [
-          {
-            "property": "margin-bottom",
-            "propertyValue": "<value>"
-          }
-        ]
-      },
-      {
-        "classname": "ml<key>",
-        "declarations": [
-          {
-            "property": "margin-left",
-            "propertyValue": "<value>"
-          }
-        ]
-      },
-      {
-        "classname": "mh<key>",
-        "declarations": [
-          {
-            "property": "margin-left",
-            "propertyValue": "<value>"
-          },
-          {
-            "property": "margin-right",
-            "propertyValue": "<value>"
-          }
-        ]
-      },
-      {
-        "classname": "mr<key>",
-        "declarations": [
-          {
-            "property": "margin-right",
-            "propertyValue": "<value>"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "order",
-    "responsive": true,
-    "configurable": false,
-    "rules": [
-      {
-        "classname": "on1",
-        "declarations": [
-          {
-            "property": "order",
-            "propertyValue": "-"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "name": "padding",
-    "responsive": true,
     "configurable": true,
     "rules": [
       {
@@ -1735,8 +1359,31 @@
     ]
   },
   {
+    "name": "pointer-events",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "pen",
+        "declarations": [
+          {
+            "property": "pointer-events",
+            "propertyValue": "none"
+          }
+        ]
+      },
+      {
+        "classname": "pea",
+        "declarations": [
+          {
+            "property": "pointer-events",
+            "propertyValue": "auto"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "position",
-    "responsive": true,
     "configurable": false,
     "rules": [
       {
@@ -1870,8 +1517,68 @@
     ]
   },
   {
+    "name": "ratio",
+    "configurable": true,
+    "rules": [
+      {
+        "classname": "r",
+        "declarations": [
+          {
+            "property": "height",
+            "propertyValue": 0
+          },
+          {
+            "property": "position",
+            "propertyValue": "relative"
+          }
+        ]
+      },
+      {
+        "classname": "ro",
+        "declarations": [
+          {
+            "property": "position",
+            "propertyValue": "absolute"
+          },
+          {
+            "property": "top",
+            "propertyValue": 0
+          },
+          {
+            "property": "right",
+            "propertyValue": 0
+          },
+          {
+            "property": "bottom",
+            "propertyValue": 0
+          },
+          {
+            "property": "left",
+            "propertyValue": 0
+          },
+          {
+            "property": "width",
+            "propertyValue": "100%"
+          },
+          {
+            "property": "height",
+            "propertyValue": "100%"
+          }
+        ]
+      },
+      {
+        "classname": "r--<key>",
+        "declarations": [
+          {
+            "property": "padding-top",
+            "propertyValue": "intrinsic-size(<value>)"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "sizing",
-    "responsive": true,
     "configurable": false,
     "rules": [
       {
@@ -2148,7 +1855,6 @@
   },
   {
     "name": "text",
-    "responsive": true,
     "configurable": false,
     "rules": [
       {
@@ -2246,6 +1952,276 @@
           {
             "property": "text-overflow",
             "propertyValue": "ellipsis"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "user-select",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "usn",
+        "declarations": [
+          {
+            "property": "user-select",
+            "propertyValue": "none"
+          }
+        ]
+      },
+      {
+        "classname": "ust",
+        "declarations": [
+          {
+            "property": "user-select",
+            "propertyValue": "text"
+          }
+        ]
+      },
+      {
+        "classname": "usau",
+        "declarations": [
+          {
+            "property": "user-select",
+            "propertyValue": "auto"
+          }
+        ]
+      },
+      {
+        "classname": "usal",
+        "declarations": [
+          {
+            "property": "user-select",
+            "propertyValue": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "will-change",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "wct",
+        "declarations": [
+          {
+            "property": "will-change",
+            "propertyValue": "transform"
+          }
+        ]
+      },
+      {
+        "classname": "wco",
+        "declarations": [
+          {
+            "property": "will-change",
+            "propertyValue": "opacity"
+          }
+        ]
+      },
+      {
+        "classname": "wcto",
+        "declarations": [
+          {
+            "property": "will-change",
+            "propertyValue": "transform, opacity"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "z-index",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "zn10",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": "-"
+          }
+        ]
+      },
+      {
+        "classname": "zn9",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": "-"
+          }
+        ]
+      },
+      {
+        "classname": "zn8",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": "-"
+          }
+        ]
+      },
+      {
+        "classname": "zn7",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": "-"
+          }
+        ]
+      },
+      {
+        "classname": "zn6",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": "-"
+          }
+        ]
+      },
+      {
+        "classname": "zn5",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": "-"
+          }
+        ]
+      },
+      {
+        "classname": "zn4",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": "-"
+          }
+        ]
+      },
+      {
+        "classname": "zn3",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": "-"
+          }
+        ]
+      },
+      {
+        "classname": "zn2",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": "-"
+          }
+        ]
+      },
+      {
+        "classname": "zn1",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": "-"
+          }
+        ]
+      },
+      {
+        "classname": "z0",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": 0
+          }
+        ]
+      },
+      {
+        "classname": "z1",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": 1
+          }
+        ]
+      },
+      {
+        "classname": "z2",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": 2
+          }
+        ]
+      },
+      {
+        "classname": "z3",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": 3
+          }
+        ]
+      },
+      {
+        "classname": "z4",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": 4
+          }
+        ]
+      },
+      {
+        "classname": "z5",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": 5
+          }
+        ]
+      },
+      {
+        "classname": "z6",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": 6
+          }
+        ]
+      },
+      {
+        "classname": "z7",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": 7
+          }
+        ]
+      },
+      {
+        "classname": "z8",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": 8
+          }
+        ]
+      },
+      {
+        "classname": "z9",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": 9
+          }
+        ]
+      },
+      {
+        "classname": "z10",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": 10
           }
         ]
       }

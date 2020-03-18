@@ -11,10 +11,9 @@ const indexTree = sast.parse(indexContents, { syntax: 'scss' })
 
 visit(indexTree, 'declaration', declaration => {
   const json = sast.jsonify(declaration)
-  const static = json.name === 'static-definitions'
-  const responsive = json.name === 'responsive-definitions'
+  const definitions = json.name === 'definitions'
 
-  if (static || responsive) {
+  if (definitions) {
     const names = json.value
       .slice('map-collect(\n'.length)
       .slice(0, -1)
@@ -106,7 +105,6 @@ visit(indexTree, 'declaration', declaration => {
 
       OUTPUT.push({
         name,
-        responsive,
         configurable,
         rules
       })
