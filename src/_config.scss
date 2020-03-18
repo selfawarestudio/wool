@@ -15,8 +15,8 @@ $font-sizes: (
 ) !default;
 
 $line-heights: (
-  '100': 1, 
-  '120': 1.2, 
+  '100': 1,
+  '120': 1.2,
   '140': 1.4,
   '160': 1.6
 ) !default;
@@ -24,7 +24,7 @@ $line-heights: (
 $letter-spacings: (
   '-01em': -0.01em,
   '01em': 0.01em,
-  '02em': 0.02em,
+  '02em': 0.02em
 ) !default;
 
 $font-stacks: (
@@ -36,17 +36,27 @@ $margin-units: () !default;
 @for $i from -50 through 50 {
   $key: $i * 5;
   @if ($i < 0) {
-    $key: 'n#{$i * -5}'
+    $key: 'n#{$i * -5}';
   }
   $value: $i * 0.5rem;
-  $margin-units: map-merge($margin-units, ( $key: $value ));
+  $margin-units: map-merge(
+    $margin-units,
+    (
+      $key: $value
+    )
+  );
 }
 
 $padding-units: () !default;
 @for $i from 0 through 50 {
   $key: $i * 5;
   $value: $key * 0.1rem;
-  $padding-units: map-merge($padding-units, ( $key: $value ));
+  $padding-units: map-merge(
+    $padding-units,
+    (
+      $key: $value
+    )
+  );
 }
 
 $max-widths: (
@@ -58,21 +68,66 @@ $max-widths: (
 ) !default;
 
 $aspect-ratios: (
-  '1x1': (1, 1),
-  '2x1': (2, 1),
-  '3x1': (3, 1),
-  '3x4': (3, 4),
-  '4x3': (4, 3),
-  '4x5': (4, 5),
-  '4x6': (4, 6),
-  '5x4': (5, 4),
-  '5x7': (5, 7),
-  '5x8': (5, 8),
-  '6x4': (6, 4),
-  '7x5': (7, 5),
-  '8x5': (8, 5),
-  '9x16': (9, 16),
-  '16x9': (16, 9),
+  '1x1': (
+    1,
+    1
+  ),
+  '2x1': (
+    2,
+    1
+  ),
+  '3x1': (
+    3,
+    1
+  ),
+  '3x4': (
+    3,
+    4
+  ),
+  '4x3': (
+    4,
+    3
+  ),
+  '4x5': (
+    4,
+    5
+  ),
+  '4x6': (
+    4,
+    6
+  ),
+  '5x4': (
+    5,
+    4
+  ),
+  '5x7': (
+    5,
+    7
+  ),
+  '5x8': (
+    5,
+    8
+  ),
+  '6x4': (
+    6,
+    4
+  ),
+  '7x5': (
+    7,
+    5
+  ),
+  '8x5': (
+    8,
+    5
+  ),
+  '9x16': (
+    9,
+    16
+  ),
+  '16x9': (
+    16,
+    9
+  )
 ) !default;
 
 $default-border: 2px solid black !default;
@@ -86,7 +141,7 @@ $border-widths: (
 ) !default;
 
 $border-radiuses: (
-  '50': 50%,
+  '50': 50%
 ) !default;
 
 $breakpoints: (
@@ -94,12 +149,15 @@ $breakpoints: (
   s: 650px,
   m: 850px,
   l: 1025px,
-  xl: 1440px,
+  xl: 1440px
 ) !default;
 
 $media-queries: () !default;
 @each $name, $breakpoint in $breakpoints {
-  $media-queries: map-merge($media-queries, (
-    '#{$name}': 'min-width: #{$breakpoint}'
-  ));
+  $media-queries: map-merge(
+    $media-queries,
+    (
+      '#{$name}': 'min-width: #{$breakpoint}'
+    )
+  );
 }

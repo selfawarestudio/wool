@@ -1,7 +1,12 @@
 $border-style: ();
 
 @each $key, $value in $border-styles {
-  $border-style: map-merge($border-style, (
-    'bs-#{$key}': ( border-style: $value )
-  ));
+  $border-style: map-merge(
+    $border-style,
+    (
+      'bs-#{$key}': (
+        border-style: $value
+      )
+    )
+  );
 }

@@ -1,8 +1,20 @@
 $bg: (
-  'bg-cover': ( background-size: cover ),
-  'bg-contain': ( background-size: contain ),
-  'bg-center': ( background-position: center ),
-  'bg-left': ( background-position: left ),
-  'bg-right': ( background-position: right ),
-  'bg-no-repeat': ( background-repeat: no-repeat )
+  'bg-cover': (
+    background-size: cover
+  ),
+  'bg-contain': (
+    background-size: contain
+  ),
+  'bg-center': (
+    background-position: center
+  ),
+  'bg-left': (
+    background-position: left
+  ),
+  'bg-right': (
+    background-position: right
+  ),
+  'bg-no-repeat': (
+    background-repeat: no-repeat
+  )
 );

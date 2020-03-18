@@ -1,5 +1,11 @@
 $will-change: (
-  'wct': ( will-change: transform ),
-  'wco': ( will-change: opacity ),
-  'wcto': ( will-change: unquote('transform, opacity'))
+  'wct': (
+    will-change: transform
+  ),
+  'wco': (
+    will-change: opacity
+  ),
+  'wcto': (
+    will-change: unquote('transform, opacity')
+  )
 );

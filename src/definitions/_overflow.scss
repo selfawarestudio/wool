@@ -1,5 +1,13 @@
 $overflow: (
-  'oh': ( overflow: hidden ),
-  'oy': ( overflow-y: auto, -webkit-overflow-scrolling: touch ),
-  'ox': ( overflow-x: auto, -webkit-overflow-scrolling: touch )
+  'oh': (
+    overflow: hidden
+  ),
+  'oy': (
+    overflow-y: auto,
+    -webkit-overflow-scrolling: touch
+  ),
+  'ox': (
+    overflow-x: auto,
+    -webkit-overflow-scrolling: touch
+  )
 );

@@ -1,12 +1,62 @@
-$opacity: ();
-
-@for $i from 0 to 20 {
-  $key:  'o#{$i * 5}';
-  @if ($i == 1) {
-    $key: 'o0#{$i * 5}';
-  }
-
-  $opacity: map-merge($opacity, (
-    '#{$key}': ( opacity: $i * 5 / 100 )
-  ))
-}
+$opacity: (
+  'o05': (
+    opacity: 0.05
+  ),
+  'o10': (
+    opacity: 0.1
+  ),
+  'o15': (
+    opacity: 0.15
+  ),
+  'o20': (
+    opacity: 0.2
+  ),
+  'o25': (
+    opacity: 0.25
+  ),
+  'o30': (
+    opacity: 0.3
+  ),
+  'o35': (
+    opacity: 0.35
+  ),
+  'o40': (
+    opacity: 0.4
+  ),
+  'o45': (
+    opacity: 0.45
+  ),
+  'o50': (
+    opacity: 0.5
+  ),
+  'o55': (
+    opacity: 0.55
+  ),
+  'o60': (
+    opacity: 0.6
+  ),
+  'o65': (
+    opacity: 0.65
+  ),
+  'o70': (
+    opacity: 0.7
+  ),
+  'o75': (
+    opacity: 0.75
+  ),
+  'o80': (
+    opacity: 0.8
+  ),
+  'o85': (
+    opacity: 0.85
+  ),
+  'o90': (
+    opacity: 0.9
+  ),
+  'o95': (
+    opacity: 0.95
+  ),
+  'o100': (
+    opacity: 0.1
+  )
+);

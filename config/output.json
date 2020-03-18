@@ -1,0 +1,2230 @@
+[
+  {
+    "name": "a11y",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "visually-hidden",
+        "declarations": [
+          {
+            "property": "position",
+            "propertyValue": "absolute"
+          },
+          {
+            "property": "height",
+            "propertyValue": "1px"
+          },
+          {
+            "property": "width",
+            "propertyValue": "1px"
+          },
+          {
+            "property": "overflow",
+            "propertyValue": "hidden"
+          },
+          {
+            "property": "clip",
+            "propertyValue": "rect(1px, 1px, 1px, 1px)"
+          },
+          {
+            "property": "white-space",
+            "propertyValue": "nowrap"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "align-content",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "acs",
+        "declarations": [
+          {
+            "property": "align-content",
+            "propertyValue": "flex-start"
+          }
+        ]
+      },
+      {
+        "classname": "acc",
+        "declarations": [
+          {
+            "property": "align-content",
+            "propertyValue": "center"
+          }
+        ]
+      },
+      {
+        "classname": "ace",
+        "declarations": [
+          {
+            "property": "align-content",
+            "propertyValue": "flex-end"
+          }
+        ]
+      },
+      {
+        "classname": "acb",
+        "declarations": [
+          {
+            "property": "align-content",
+            "propertyValue": "space-between"
+          }
+        ]
+      },
+      {
+        "classname": "aca",
+        "declarations": [
+          {
+            "property": "align-content",
+            "propertyValue": "space-around"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "align-items",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "ais",
+        "declarations": [
+          {
+            "property": "align-items",
+            "propertyValue": "flex-start"
+          }
+        ]
+      },
+      {
+        "classname": "aic",
+        "declarations": [
+          {
+            "property": "align-items",
+            "propertyValue": "center"
+          }
+        ]
+      },
+      {
+        "classname": "aie",
+        "declarations": [
+          {
+            "property": "align-items",
+            "propertyValue": "flex-end"
+          }
+        ]
+      },
+      {
+        "classname": "aib",
+        "declarations": [
+          {
+            "property": "align-items",
+            "propertyValue": "baseline"
+          }
+        ]
+      },
+      {
+        "classname": "aistr",
+        "declarations": [
+          {
+            "property": "align-items",
+            "propertyValue": "stretch"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "align-self",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "asa",
+        "declarations": [
+          {
+            "property": "align-self",
+            "propertyValue": "auto"
+          }
+        ]
+      },
+      {
+        "classname": "ass",
+        "declarations": [
+          {
+            "property": "align-self",
+            "propertyValue": "flex-start"
+          }
+        ]
+      },
+      {
+        "classname": "asc",
+        "declarations": [
+          {
+            "property": "align-self",
+            "propertyValue": "center"
+          }
+        ]
+      },
+      {
+        "classname": "ase",
+        "declarations": [
+          {
+            "property": "align-self",
+            "propertyValue": "flex-end"
+          }
+        ]
+      },
+      {
+        "classname": "asstr",
+        "declarations": [
+          {
+            "property": "align-self",
+            "propertyValue": "stretch"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "background-color",
+    "configurable": true,
+    "rules": [
+      {
+        "classname": "bg-<key>",
+        "declarations": [
+          {
+            "property": "background-color",
+            "propertyValue": "<value>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "bg",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "bg-cover",
+        "declarations": [
+          {
+            "property": "background-size",
+            "propertyValue": "cover"
+          }
+        ]
+      },
+      {
+        "classname": "bg-contain",
+        "declarations": [
+          {
+            "property": "background-size",
+            "propertyValue": "contain"
+          }
+        ]
+      },
+      {
+        "classname": "bg-center",
+        "declarations": [
+          {
+            "property": "background-position",
+            "propertyValue": "center"
+          }
+        ]
+      },
+      {
+        "classname": "bg-left",
+        "declarations": [
+          {
+            "property": "background-position",
+            "propertyValue": "left"
+          }
+        ]
+      },
+      {
+        "classname": "bg-right",
+        "declarations": [
+          {
+            "property": "background-position",
+            "propertyValue": "right"
+          }
+        ]
+      },
+      {
+        "classname": "bg-no-repeat",
+        "declarations": [
+          {
+            "property": "background-repeat",
+            "propertyValue": "no-repeat"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "border-color",
+    "configurable": true,
+    "rules": [
+      {
+        "classname": "bc-<key>",
+        "declarations": [
+          {
+            "property": "border-color",
+            "propertyValue": "<value>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "border-radius",
+    "configurable": true,
+    "rules": [
+      {
+        "classname": "br<key>",
+        "declarations": [
+          {
+            "property": "border-radius",
+            "propertyValue": "<value>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "border-style",
+    "configurable": true,
+    "rules": [
+      {
+        "classname": "bs-<key>",
+        "declarations": [
+          {
+            "property": "border-style",
+            "propertyValue": "<value>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "border-width",
+    "configurable": true,
+    "rules": [
+      {
+        "classname": "bw<key>",
+        "declarations": [
+          {
+            "property": "border-width",
+            "propertyValue": "<value>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "border",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "bn",
+        "declarations": [
+          {
+            "property": "border",
+            "propertyValue": "none"
+          }
+        ]
+      },
+      {
+        "classname": "ba",
+        "declarations": [
+          {
+            "property": "border",
+            "propertyValue": "$default-border"
+          }
+        ]
+      },
+      {
+        "classname": "bt",
+        "declarations": [
+          {
+            "property": "border-top",
+            "propertyValue": "$default-border"
+          }
+        ]
+      },
+      {
+        "classname": "bv",
+        "declarations": [
+          {
+            "property": "border-top",
+            "propertyValue": "$default-border"
+          },
+          {
+            "property": "border-bottom",
+            "propertyValue": "$default-border"
+          }
+        ]
+      },
+      {
+        "classname": "bb",
+        "declarations": [
+          {
+            "property": "border-bottom",
+            "propertyValue": "$default-border"
+          }
+        ]
+      },
+      {
+        "classname": "bl",
+        "declarations": [
+          {
+            "property": "border-left",
+            "propertyValue": "$default-border"
+          }
+        ]
+      },
+      {
+        "classname": "bh",
+        "declarations": [
+          {
+            "property": "border-left",
+            "propertyValue": "$default-border"
+          },
+          {
+            "property": "border-right",
+            "propertyValue": "$default-border"
+          }
+        ]
+      },
+      {
+        "classname": "br",
+        "declarations": [
+          {
+            "property": "border-right",
+            "propertyValue": "$default-border"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "color",
+    "configurable": true,
+    "rules": [
+      {
+        "classname": "c-<key>",
+        "declarations": [
+          {
+            "property": "color",
+            "propertyValue": "<value>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "display",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "db",
+        "declarations": [
+          {
+            "property": "display",
+            "propertyValue": "block"
+          }
+        ]
+      },
+      {
+        "classname": "dib",
+        "declarations": [
+          {
+            "property": "display",
+            "propertyValue": "inline-block"
+          }
+        ]
+      },
+      {
+        "classname": "di",
+        "declarations": [
+          {
+            "property": "display",
+            "propertyValue": "inline"
+          }
+        ]
+      },
+      {
+        "classname": "df",
+        "declarations": [
+          {
+            "property": "display",
+            "propertyValue": "flex"
+          }
+        ]
+      },
+      {
+        "classname": "dn",
+        "declarations": [
+          {
+            "property": "display",
+            "propertyValue": "none"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "flex-direction",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "fr",
+        "declarations": [
+          {
+            "property": "flex-direction",
+            "propertyValue": "row"
+          }
+        ]
+      },
+      {
+        "classname": "frr",
+        "declarations": [
+          {
+            "property": "flex-direction",
+            "propertyValue": "row-reverse"
+          }
+        ]
+      },
+      {
+        "classname": "fc",
+        "declarations": [
+          {
+            "property": "flex-direction",
+            "propertyValue": "column"
+          }
+        ]
+      },
+      {
+        "classname": "fcr",
+        "declarations": [
+          {
+            "property": "flex-direction",
+            "propertyValue": "column-reverse"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "flex-grow",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "fg1",
+        "declarations": [
+          {
+            "property": "flex-grow",
+            "propertyValue": 1
+          }
+        ]
+      },
+      {
+        "classname": "fg0",
+        "declarations": [
+          {
+            "property": "flex-grow",
+            "propertyValue": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "flex-shrink",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "fs1",
+        "declarations": [
+          {
+            "property": "flex-shrink",
+            "propertyValue": 1
+          }
+        ]
+      },
+      {
+        "classname": "fs0",
+        "declarations": [
+          {
+            "property": "flex-shrink",
+            "propertyValue": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "flex-wrap",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "fnw",
+        "declarations": [
+          {
+            "property": "flex-wrap",
+            "propertyValue": "nowrap"
+          }
+        ]
+      },
+      {
+        "classname": "fw",
+        "declarations": [
+          {
+            "property": "flex-wrap",
+            "propertyValue": "wrap"
+          }
+        ]
+      },
+      {
+        "classname": "fwr",
+        "declarations": [
+          {
+            "property": "flex-wrap",
+            "propertyValue": "wrap-reverse"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "flex",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "fi",
+        "declarations": [
+          {
+            "property": "flex",
+            "propertyValue": 0
+          }
+        ]
+      },
+      {
+        "classname": "f1",
+        "declarations": [
+          {
+            "property": "flex",
+            "propertyValue": 1
+          }
+        ]
+      },
+      {
+        "classname": "fa",
+        "declarations": [
+          {
+            "property": "flex",
+            "propertyValue": 1
+          }
+        ]
+      },
+      {
+        "classname": "fn",
+        "declarations": [
+          {
+            "property": "flex",
+            "propertyValue": "none"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "font-family",
+    "configurable": true,
+    "rules": [
+      {
+        "classname": "<key>",
+        "declarations": [
+          {
+            "property": "font-family",
+            "propertyValue": "<value>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "font-size",
+    "configurable": true,
+    "rules": [
+      {
+        "classname": "f<key>",
+        "declarations": [
+          {
+            "property": "font-size",
+            "propertyValue": "<value>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "font-style",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "i",
+        "declarations": [
+          {
+            "property": "font-style",
+            "propertyValue": "italic"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "font-weight",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "fw100",
+        "declarations": [
+          {
+            "property": "font-weight",
+            "propertyValue": 100
+          }
+        ]
+      },
+      {
+        "classname": "fw200",
+        "declarations": [
+          {
+            "property": "font-weight",
+            "propertyValue": 200
+          }
+        ]
+      },
+      {
+        "classname": "fw300",
+        "declarations": [
+          {
+            "property": "font-weight",
+            "propertyValue": 300
+          }
+        ]
+      },
+      {
+        "classname": "fw400",
+        "declarations": [
+          {
+            "property": "font-weight",
+            "propertyValue": 400
+          }
+        ]
+      },
+      {
+        "classname": "fw500",
+        "declarations": [
+          {
+            "property": "font-weight",
+            "propertyValue": 500
+          }
+        ]
+      },
+      {
+        "classname": "fw600",
+        "declarations": [
+          {
+            "property": "font-weight",
+            "propertyValue": 600
+          }
+        ]
+      },
+      {
+        "classname": "fw700",
+        "declarations": [
+          {
+            "property": "font-weight",
+            "propertyValue": 700
+          }
+        ]
+      },
+      {
+        "classname": "fw800",
+        "declarations": [
+          {
+            "property": "font-weight",
+            "propertyValue": 800
+          }
+        ]
+      },
+      {
+        "classname": "fw900",
+        "declarations": [
+          {
+            "property": "font-weight",
+            "propertyValue": 900
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "justify-content",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "jcs",
+        "declarations": [
+          {
+            "property": "justify-content",
+            "propertyValue": "flex-start"
+          }
+        ]
+      },
+      {
+        "classname": "jcc",
+        "declarations": [
+          {
+            "property": "justify-content",
+            "propertyValue": "center"
+          }
+        ]
+      },
+      {
+        "classname": "jce",
+        "declarations": [
+          {
+            "property": "justify-content",
+            "propertyValue": "flex-end"
+          }
+        ]
+      },
+      {
+        "classname": "jcb",
+        "declarations": [
+          {
+            "property": "justify-content",
+            "propertyValue": "space-between"
+          }
+        ]
+      },
+      {
+        "classname": "jca",
+        "declarations": [
+          {
+            "property": "justify-content",
+            "propertyValue": "space-around"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "letter-spacing",
+    "configurable": true,
+    "rules": [
+      {
+        "classname": "ls<key>",
+        "declarations": [
+          {
+            "property": "letter-spacing",
+            "propertyValue": "<value>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "line-height",
+    "configurable": true,
+    "rules": [
+      {
+        "classname": "lh<key>",
+        "declarations": [
+          {
+            "property": "line-height",
+            "propertyValue": "<value>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "margin",
+    "configurable": true,
+    "rules": [
+      {
+        "classname": "ma",
+        "declarations": [
+          {
+            "property": "margin",
+            "propertyValue": "auto"
+          }
+        ]
+      },
+      {
+        "classname": "mta",
+        "declarations": [
+          {
+            "property": "margin-top",
+            "propertyValue": "auto"
+          }
+        ]
+      },
+      {
+        "classname": "mva",
+        "declarations": [
+          {
+            "property": "margin-top",
+            "propertyValue": "auto"
+          },
+          {
+            "property": "margin-bottom",
+            "propertyValue": "auto"
+          }
+        ]
+      },
+      {
+        "classname": "mba",
+        "declarations": [
+          {
+            "property": "margin-bottom",
+            "propertyValue": "auto"
+          }
+        ]
+      },
+      {
+        "classname": "mla",
+        "declarations": [
+          {
+            "property": "margin-left",
+            "propertyValue": "auto"
+          }
+        ]
+      },
+      {
+        "classname": "mha",
+        "declarations": [
+          {
+            "property": "margin-left",
+            "propertyValue": "auto"
+          },
+          {
+            "property": "margin-right",
+            "propertyValue": "auto"
+          }
+        ]
+      },
+      {
+        "classname": "mra",
+        "declarations": [
+          {
+            "property": "margin-right",
+            "propertyValue": "auto"
+          }
+        ]
+      },
+      {
+        "classname": "m<key>",
+        "declarations": [
+          {
+            "property": "margin",
+            "propertyValue": "<value>"
+          }
+        ]
+      },
+      {
+        "classname": "mt<key>",
+        "declarations": [
+          {
+            "property": "margin-top",
+            "propertyValue": "<value>"
+          }
+        ]
+      },
+      {
+        "classname": "mv<key>",
+        "declarations": [
+          {
+            "property": "margin-top",
+            "propertyValue": "<value>"
+          },
+          {
+            "property": "margin-bottom",
+            "propertyValue": "<value>"
+          }
+        ]
+      },
+      {
+        "classname": "mb<key>",
+        "declarations": [
+          {
+            "property": "margin-bottom",
+            "propertyValue": "<value>"
+          }
+        ]
+      },
+      {
+        "classname": "ml<key>",
+        "declarations": [
+          {
+            "property": "margin-left",
+            "propertyValue": "<value>"
+          }
+        ]
+      },
+      {
+        "classname": "mh<key>",
+        "declarations": [
+          {
+            "property": "margin-left",
+            "propertyValue": "<value>"
+          },
+          {
+            "property": "margin-right",
+            "propertyValue": "<value>"
+          }
+        ]
+      },
+      {
+        "classname": "mr<key>",
+        "declarations": [
+          {
+            "property": "margin-right",
+            "propertyValue": "<value>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "max-width",
+    "configurable": true,
+    "rules": [
+      {
+        "classname": "max-w<key>",
+        "declarations": [
+          {
+            "property": "max-width",
+            "propertyValue": "<value>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "object-fit",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "o-contain",
+        "declarations": [
+          {
+            "property": "object-fit",
+            "propertyValue": "contain"
+          }
+        ]
+      },
+      {
+        "classname": "o-cover",
+        "declarations": [
+          {
+            "property": "object-fit",
+            "propertyValue": "cover"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "opacity",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "o05",
+        "declarations": [
+          {
+            "property": "opacity",
+            "propertyValue": 0.05
+          }
+        ]
+      },
+      {
+        "classname": "o10",
+        "declarations": [
+          {
+            "property": "opacity",
+            "propertyValue": 0.1
+          }
+        ]
+      },
+      {
+        "classname": "o15",
+        "declarations": [
+          {
+            "property": "opacity",
+            "propertyValue": 0.15
+          }
+        ]
+      },
+      {
+        "classname": "o20",
+        "declarations": [
+          {
+            "property": "opacity",
+            "propertyValue": 0.2
+          }
+        ]
+      },
+      {
+        "classname": "o25",
+        "declarations": [
+          {
+            "property": "opacity",
+            "propertyValue": 0.25
+          }
+        ]
+      },
+      {
+        "classname": "o30",
+        "declarations": [
+          {
+            "property": "opacity",
+            "propertyValue": 0.3
+          }
+        ]
+      },
+      {
+        "classname": "o35",
+        "declarations": [
+          {
+            "property": "opacity",
+            "propertyValue": 0.35
+          }
+        ]
+      },
+      {
+        "classname": "o40",
+        "declarations": [
+          {
+            "property": "opacity",
+            "propertyValue": 0.4
+          }
+        ]
+      },
+      {
+        "classname": "o45",
+        "declarations": [
+          {
+            "property": "opacity",
+            "propertyValue": 0.45
+          }
+        ]
+      },
+      {
+        "classname": "o50",
+        "declarations": [
+          {
+            "property": "opacity",
+            "propertyValue": 0.5
+          }
+        ]
+      },
+      {
+        "classname": "o55",
+        "declarations": [
+          {
+            "property": "opacity",
+            "propertyValue": 0.55
+          }
+        ]
+      },
+      {
+        "classname": "o60",
+        "declarations": [
+          {
+            "property": "opacity",
+            "propertyValue": 0.6
+          }
+        ]
+      },
+      {
+        "classname": "o65",
+        "declarations": [
+          {
+            "property": "opacity",
+            "propertyValue": 0.65
+          }
+        ]
+      },
+      {
+        "classname": "o70",
+        "declarations": [
+          {
+            "property": "opacity",
+            "propertyValue": 0.7
+          }
+        ]
+      },
+      {
+        "classname": "o75",
+        "declarations": [
+          {
+            "property": "opacity",
+            "propertyValue": 0.75
+          }
+        ]
+      },
+      {
+        "classname": "o80",
+        "declarations": [
+          {
+            "property": "opacity",
+            "propertyValue": 0.8
+          }
+        ]
+      },
+      {
+        "classname": "o85",
+        "declarations": [
+          {
+            "property": "opacity",
+            "propertyValue": 0.85
+          }
+        ]
+      },
+      {
+        "classname": "o90",
+        "declarations": [
+          {
+            "property": "opacity",
+            "propertyValue": 0.9
+          }
+        ]
+      },
+      {
+        "classname": "o95",
+        "declarations": [
+          {
+            "property": "opacity",
+            "propertyValue": 0.95
+          }
+        ]
+      },
+      {
+        "classname": "o100",
+        "declarations": [
+          {
+            "property": "opacity",
+            "propertyValue": 0.1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "order",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "on1",
+        "declarations": [
+          {
+            "property": "order",
+            "propertyValue": "-"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "overflow",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "oh",
+        "declarations": [
+          {
+            "property": "overflow",
+            "propertyValue": "hidden"
+          }
+        ]
+      },
+      {
+        "classname": "oy",
+        "declarations": [
+          {
+            "property": "overflow-y",
+            "propertyValue": "auto"
+          },
+          {
+            "property": "-webkit-overflow-scrolling",
+            "propertyValue": "touch"
+          }
+        ]
+      },
+      {
+        "classname": "ox",
+        "declarations": [
+          {
+            "property": "overflow-x",
+            "propertyValue": "auto"
+          },
+          {
+            "property": "-webkit-overflow-scrolling",
+            "propertyValue": "touch"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "padding",
+    "configurable": true,
+    "rules": [
+      {
+        "classname": "p<key>",
+        "declarations": [
+          {
+            "property": "padding",
+            "propertyValue": "<value>"
+          }
+        ]
+      },
+      {
+        "classname": "pt<key>",
+        "declarations": [
+          {
+            "property": "padding-top",
+            "propertyValue": "<value>"
+          }
+        ]
+      },
+      {
+        "classname": "pv<key>",
+        "declarations": [
+          {
+            "property": "padding-top",
+            "propertyValue": "<value>"
+          },
+          {
+            "property": "padding-bottom",
+            "propertyValue": "<value>"
+          }
+        ]
+      },
+      {
+        "classname": "pb<key>",
+        "declarations": [
+          {
+            "property": "padding-bottom",
+            "propertyValue": "<value>"
+          }
+        ]
+      },
+      {
+        "classname": "pl<key>",
+        "declarations": [
+          {
+            "property": "padding-left",
+            "propertyValue": "<value>"
+          }
+        ]
+      },
+      {
+        "classname": "ph<key>",
+        "declarations": [
+          {
+            "property": "padding-left",
+            "propertyValue": "<value>"
+          },
+          {
+            "property": "padding-right",
+            "propertyValue": "<value>"
+          }
+        ]
+      },
+      {
+        "classname": "pr<key>",
+        "declarations": [
+          {
+            "property": "padding-right",
+            "propertyValue": "<value>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "pointer-events",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "pen",
+        "declarations": [
+          {
+            "property": "pointer-events",
+            "propertyValue": "none"
+          }
+        ]
+      },
+      {
+        "classname": "pea",
+        "declarations": [
+          {
+            "property": "pointer-events",
+            "propertyValue": "auto"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "position",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "static",
+        "declarations": [
+          {
+            "property": "position",
+            "propertyValue": "static"
+          }
+        ]
+      },
+      {
+        "classname": "rel",
+        "declarations": [
+          {
+            "property": "position",
+            "propertyValue": "relative"
+          }
+        ]
+      },
+      {
+        "classname": "abs",
+        "declarations": [
+          {
+            "property": "position",
+            "propertyValue": "absolute"
+          }
+        ]
+      },
+      {
+        "classname": "fix",
+        "declarations": [
+          {
+            "property": "position",
+            "propertyValue": "fixed"
+          }
+        ]
+      },
+      {
+        "classname": "sticky",
+        "declarations": [
+          {
+            "property": "position",
+            "propertyValue": "sticky"
+          }
+        ]
+      },
+      {
+        "classname": "fill",
+        "declarations": [
+          {
+            "property": "top",
+            "propertyValue": 0
+          },
+          {
+            "property": "right",
+            "propertyValue": 0
+          },
+          {
+            "property": "bottom",
+            "propertyValue": 0
+          },
+          {
+            "property": "left",
+            "propertyValue": 0
+          }
+        ]
+      },
+      {
+        "classname": "fill-y",
+        "declarations": [
+          {
+            "property": "top",
+            "propertyValue": 0
+          },
+          {
+            "property": "bottom",
+            "propertyValue": 0
+          }
+        ]
+      },
+      {
+        "classname": "fill-x",
+        "declarations": [
+          {
+            "property": "right",
+            "propertyValue": 0
+          },
+          {
+            "property": "left",
+            "propertyValue": 0
+          }
+        ]
+      },
+      {
+        "classname": "top",
+        "declarations": [
+          {
+            "property": "top",
+            "propertyValue": 0
+          }
+        ]
+      },
+      {
+        "classname": "right",
+        "declarations": [
+          {
+            "property": "right",
+            "propertyValue": 0
+          }
+        ]
+      },
+      {
+        "classname": "bottom",
+        "declarations": [
+          {
+            "property": "bottom",
+            "propertyValue": 0
+          }
+        ]
+      },
+      {
+        "classname": "left",
+        "declarations": [
+          {
+            "property": "left",
+            "propertyValue": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ratio",
+    "configurable": true,
+    "rules": [
+      {
+        "classname": "r",
+        "declarations": [
+          {
+            "property": "height",
+            "propertyValue": 0
+          },
+          {
+            "property": "position",
+            "propertyValue": "relative"
+          }
+        ]
+      },
+      {
+        "classname": "ro",
+        "declarations": [
+          {
+            "property": "position",
+            "propertyValue": "absolute"
+          },
+          {
+            "property": "top",
+            "propertyValue": 0
+          },
+          {
+            "property": "right",
+            "propertyValue": 0
+          },
+          {
+            "property": "bottom",
+            "propertyValue": 0
+          },
+          {
+            "property": "left",
+            "propertyValue": 0
+          },
+          {
+            "property": "width",
+            "propertyValue": "100%"
+          },
+          {
+            "property": "height",
+            "propertyValue": "100%"
+          }
+        ]
+      },
+      {
+        "classname": "r--<key>",
+        "declarations": [
+          {
+            "property": "padding-top",
+            "propertyValue": "intrinsic-size(<value>)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "sizing",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "x",
+        "declarations": [
+          {
+            "property": "width",
+            "propertyValue": "100%"
+          }
+        ]
+      },
+      {
+        "classname": "y",
+        "declarations": [
+          {
+            "property": "height",
+            "propertyValue": "100%"
+          }
+        ]
+      },
+      {
+        "classname": "w5",
+        "declarations": [
+          {
+            "property": "width",
+            "propertyValue": "5%"
+          }
+        ]
+      },
+      {
+        "classname": "w10",
+        "declarations": [
+          {
+            "property": "width",
+            "propertyValue": "10%"
+          }
+        ]
+      },
+      {
+        "classname": "w15",
+        "declarations": [
+          {
+            "property": "width",
+            "propertyValue": "15%"
+          }
+        ]
+      },
+      {
+        "classname": "w20",
+        "declarations": [
+          {
+            "property": "width",
+            "propertyValue": "20%"
+          }
+        ]
+      },
+      {
+        "classname": "w25",
+        "declarations": [
+          {
+            "property": "width",
+            "propertyValue": "25%"
+          }
+        ]
+      },
+      {
+        "classname": "w30",
+        "declarations": [
+          {
+            "property": "width",
+            "propertyValue": "30%"
+          }
+        ]
+      },
+      {
+        "classname": "w35",
+        "declarations": [
+          {
+            "property": "width",
+            "propertyValue": "35%"
+          }
+        ]
+      },
+      {
+        "classname": "w40",
+        "declarations": [
+          {
+            "property": "width",
+            "propertyValue": "40%"
+          }
+        ]
+      },
+      {
+        "classname": "w45",
+        "declarations": [
+          {
+            "property": "width",
+            "propertyValue": "45%"
+          }
+        ]
+      },
+      {
+        "classname": "w50",
+        "declarations": [
+          {
+            "property": "width",
+            "propertyValue": "50%"
+          }
+        ]
+      },
+      {
+        "classname": "w55",
+        "declarations": [
+          {
+            "property": "width",
+            "propertyValue": "55%"
+          }
+        ]
+      },
+      {
+        "classname": "w60",
+        "declarations": [
+          {
+            "property": "width",
+            "propertyValue": "60%"
+          }
+        ]
+      },
+      {
+        "classname": "w65",
+        "declarations": [
+          {
+            "property": "width",
+            "propertyValue": "65%"
+          }
+        ]
+      },
+      {
+        "classname": "w70",
+        "declarations": [
+          {
+            "property": "width",
+            "propertyValue": "70%"
+          }
+        ]
+      },
+      {
+        "classname": "w75",
+        "declarations": [
+          {
+            "property": "width",
+            "propertyValue": "75%"
+          }
+        ]
+      },
+      {
+        "classname": "w80",
+        "declarations": [
+          {
+            "property": "width",
+            "propertyValue": "80%"
+          }
+        ]
+      },
+      {
+        "classname": "w85",
+        "declarations": [
+          {
+            "property": "width",
+            "propertyValue": "85%"
+          }
+        ]
+      },
+      {
+        "classname": "w90",
+        "declarations": [
+          {
+            "property": "width",
+            "propertyValue": "90%"
+          }
+        ]
+      },
+      {
+        "classname": "w95",
+        "declarations": [
+          {
+            "property": "width",
+            "propertyValue": "95%"
+          }
+        ]
+      },
+      {
+        "classname": "third",
+        "declarations": [
+          {
+            "property": "width",
+            "propertyValue": "calc(100% / 3)"
+          }
+        ]
+      },
+      {
+        "classname": "two-thirds",
+        "declarations": [
+          {
+            "property": "width",
+            "propertyValue": "calc(100% * 2 / 3)"
+          }
+        ]
+      },
+      {
+        "classname": "min-vw100",
+        "declarations": [
+          {
+            "property": "min-width",
+            "propertyValue": "100vw"
+          }
+        ]
+      },
+      {
+        "classname": "min-vh100",
+        "declarations": [
+          {
+            "property": "min-height",
+            "propertyValue": "100vh"
+          }
+        ]
+      },
+      {
+        "classname": "vw100",
+        "declarations": [
+          {
+            "property": "width",
+            "propertyValue": "100vw"
+          }
+        ]
+      },
+      {
+        "classname": "vh100",
+        "declarations": [
+          {
+            "property": "height",
+            "propertyValue": "100vh"
+          }
+        ]
+      },
+      {
+        "classname": "h25",
+        "declarations": [
+          {
+            "property": "height",
+            "propertyValue": "25%"
+          }
+        ]
+      },
+      {
+        "classname": "h50",
+        "declarations": [
+          {
+            "property": "height",
+            "propertyValue": "50%"
+          }
+        ]
+      },
+      {
+        "classname": "h75",
+        "declarations": [
+          {
+            "property": "height",
+            "propertyValue": "75%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "text",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "ttu",
+        "declarations": [
+          {
+            "property": "text-transform",
+            "propertyValue": "uppercase"
+          }
+        ]
+      },
+      {
+        "classname": "tdu",
+        "declarations": [
+          {
+            "property": "text-decoration",
+            "propertyValue": "underline"
+          }
+        ]
+      },
+      {
+        "classname": "tdn",
+        "declarations": [
+          {
+            "property": "text-decoration",
+            "propertyValue": "none"
+          }
+        ]
+      },
+      {
+        "classname": "tc",
+        "declarations": [
+          {
+            "property": "text-align",
+            "propertyValue": "center"
+          }
+        ]
+      },
+      {
+        "classname": "tl",
+        "declarations": [
+          {
+            "property": "text-align",
+            "propertyValue": "left"
+          }
+        ]
+      },
+      {
+        "classname": "tr",
+        "declarations": [
+          {
+            "property": "text-align",
+            "propertyValue": "right"
+          }
+        ]
+      },
+      {
+        "classname": "tj",
+        "declarations": [
+          {
+            "property": "text-align",
+            "propertyValue": "justify"
+          }
+        ]
+      },
+      {
+        "classname": "wrap",
+        "declarations": [
+          {
+            "property": "white-space",
+            "propertyValue": "normal"
+          }
+        ]
+      },
+      {
+        "classname": "nowrap",
+        "declarations": [
+          {
+            "property": "white-space",
+            "propertyValue": "nowrap"
+          }
+        ]
+      },
+      {
+        "classname": "truncate",
+        "declarations": [
+          {
+            "property": "white-space",
+            "propertyValue": "nowrap"
+          },
+          {
+            "property": "overflow",
+            "propertyValue": "hidden"
+          },
+          {
+            "property": "text-overflow",
+            "propertyValue": "ellipsis"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "user-select",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "usn",
+        "declarations": [
+          {
+            "property": "user-select",
+            "propertyValue": "none"
+          }
+        ]
+      },
+      {
+        "classname": "ust",
+        "declarations": [
+          {
+            "property": "user-select",
+            "propertyValue": "text"
+          }
+        ]
+      },
+      {
+        "classname": "usau",
+        "declarations": [
+          {
+            "property": "user-select",
+            "propertyValue": "auto"
+          }
+        ]
+      },
+      {
+        "classname": "usal",
+        "declarations": [
+          {
+            "property": "user-select",
+            "propertyValue": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "will-change",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "wct",
+        "declarations": [
+          {
+            "property": "will-change",
+            "propertyValue": "transform"
+          }
+        ]
+      },
+      {
+        "classname": "wco",
+        "declarations": [
+          {
+            "property": "will-change",
+            "propertyValue": "opacity"
+          }
+        ]
+      },
+      {
+        "classname": "wcto",
+        "declarations": [
+          {
+            "property": "will-change",
+            "propertyValue": "transform, opacity"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "z-index",
+    "configurable": false,
+    "rules": [
+      {
+        "classname": "zn10",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": "-"
+          }
+        ]
+      },
+      {
+        "classname": "zn9",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": "-"
+          }
+        ]
+      },
+      {
+        "classname": "zn8",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": "-"
+          }
+        ]
+      },
+      {
+        "classname": "zn7",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": "-"
+          }
+        ]
+      },
+      {
+        "classname": "zn6",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": "-"
+          }
+        ]
+      },
+      {
+        "classname": "zn5",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": "-"
+          }
+        ]
+      },
+      {
+        "classname": "zn4",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": "-"
+          }
+        ]
+      },
+      {
+        "classname": "zn3",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": "-"
+          }
+        ]
+      },
+      {
+        "classname": "zn2",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": "-"
+          }
+        ]
+      },
+      {
+        "classname": "zn1",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": "-"
+          }
+        ]
+      },
+      {
+        "classname": "z0",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": 0
+          }
+        ]
+      },
+      {
+        "classname": "z1",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": 1
+          }
+        ]
+      },
+      {
+        "classname": "z2",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": 2
+          }
+        ]
+      },
+      {
+        "classname": "z3",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": 3
+          }
+        ]
+      },
+      {
+        "classname": "z4",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": 4
+          }
+        ]
+      },
+      {
+        "classname": "z5",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": 5
+          }
+        ]
+      },
+      {
+        "classname": "z6",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": 6
+          }
+        ]
+      },
+      {
+        "classname": "z7",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": 7
+          }
+        ]
+      },
+      {
+        "classname": "z8",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": 8
+          }
+        ]
+      },
+      {
+        "classname": "z9",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": 9
+          }
+        ]
+      },
+      {
+        "classname": "z10",
+        "declarations": [
+          {
+            "property": "z-index",
+            "propertyValue": 10
+          }
+        ]
+      }
+    ]
+  }
+]

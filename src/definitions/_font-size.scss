@@ -1,7 +1,12 @@
 $font-size: ();
 
 @each $key, $value in $font-sizes {
-  $font-size: map-merge($font-size, (
-    'f#{$key}': ( font-size: $value )
-  ));
+  $font-size: map-merge(
+    $font-size,
+    (
+      'f#{$key}': (
+        font-size: $value
+      )
+    )
+  );
 }
