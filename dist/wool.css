@@ -3551,6 +3551,7 @@
 
 .oy {
   overflow-y: auto;
+  overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
 }
 
@@ -9053,6 +9054,7 @@
 
   .xs\:oy {
     overflow-y: auto;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
   }
 
@@ -14555,6 +14557,7 @@
 
   .s\:oy {
     overflow-y: auto;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
   }
 
@@ -20057,6 +20060,7 @@
 
   .m\:oy {
     overflow-y: auto;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
   }
 
@@ -25559,6 +25563,7 @@
 
   .l\:oy {
     overflow-y: auto;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
   }
 
@@ -31061,6 +31066,7 @@
 
   .xl\:oy {
     overflow-y: auto;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
   }
 
