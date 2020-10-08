@@ -1,6 +1,6 @@
 {
   "name": "@selfaware/wool",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A comprehensive and flexible utility-first styling solution.",
   "main": "src/index.scss",
   "scripts": {

@@ -9,7 +9,7 @@ const OUTPUT = []
 const indexContents = fs.readFileSync('src/index.scss', 'utf8')
 const indexTree = sast.parse(indexContents, { syntax: 'scss' })
 
-visit(indexTree, 'declaration', declaration => {
+visit(indexTree, 'declaration', (declaration) => {
   const json = sast.jsonify(declaration)
   const definitions = json.name === 'definitions'
 
@@ -19,10 +19,13 @@ visit(indexTree, 'declaration', declaration => {
       .slice(0, -1)
       .replace(/\$|\n/g, '')
       .split(',')
-      .map(n => n.trim())
+      .map((n) => n.trim())
 
     for (let i = 0; i < names.length; i++) {
       const name = names[i]
+
+      if (name === 'user-definitions') return
+
       const rules = []
       const contents = fs.readFileSync(`src/definitions/_${name}.scss`, 'utf8')
       const tree = sast.parse(contents, { syntax: 'scss' })
@@ -44,10 +47,7 @@ visit(indexTree, 'declaration', declaration => {
                   return {
                     property,
                     propertyValue:
-                      propertyValue
-                        .split('$')
-                        .join('<')
-                        .slice(0, -1) + '>)'
+                      propertyValue.split('$').join('<').slice(0, -1) + '>)'
                   }
                 }
               )
@@ -161,12 +161,7 @@ function handleDefaultConfigurableDefinitions(rules, tree, name) {
 }
 
 function handleInterpolatedVariable(string) {
-  return string
-    .slice(1, -1)
-    .split('#{$')
-    .join('<')
-    .split('}')
-    .join('>')
+  return string.slice(1, -1).split('#{$').join('<').split('}').join('>')
 }
 
 function log(x) {

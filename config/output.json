@@ -263,66 +263,6 @@
     ]
   },
   {
-    "name": "border-color",
-    "configurable": true,
-    "rules": [
-      {
-        "classname": "bc-<key>",
-        "declarations": [
-          {
-            "property": "border-color",
-            "propertyValue": "<value>"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "border-radius",
-    "configurable": true,
-    "rules": [
-      {
-        "classname": "br<key>",
-        "declarations": [
-          {
-            "property": "border-radius",
-            "propertyValue": "<value>"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "border-style",
-    "configurable": true,
-    "rules": [
-      {
-        "classname": "bs-<key>",
-        "declarations": [
-          {
-            "property": "border-style",
-            "propertyValue": "<value>"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "border-width",
-    "configurable": true,
-    "rules": [
-      {
-        "classname": "bw<key>",
-        "declarations": [
-          {
-            "property": "border-width",
-            "propertyValue": "<value>"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "name": "border",
     "configurable": false,
     "rules": [
@@ -403,6 +343,66 @@
           {
             "property": "border-right",
             "propertyValue": "$default-border"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "border-color",
+    "configurable": true,
+    "rules": [
+      {
+        "classname": "bc-<key>",
+        "declarations": [
+          {
+            "property": "border-color",
+            "propertyValue": "<value>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "border-radius",
+    "configurable": true,
+    "rules": [
+      {
+        "classname": "br<key>",
+        "declarations": [
+          {
+            "property": "border-radius",
+            "propertyValue": "<value>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "border-style",
+    "configurable": true,
+    "rules": [
+      {
+        "classname": "bs-<key>",
+        "declarations": [
+          {
+            "property": "border-style",
+            "propertyValue": "<value>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "border-width",
+    "configurable": true,
+    "rules": [
+      {
+        "classname": "bw<key>",
+        "declarations": [
+          {
+            "property": "border-width",
+            "propertyValue": "<value>"
           }
         ]
       }
@@ -1044,6 +1044,15 @@
     "configurable": false,
     "rules": [
       {
+        "classname": "o0",
+        "declarations": [
+          {
+            "property": "opacity",
+            "propertyValue": 0
+          }
+        ]
+      },
+      {
         "classname": "o05",
         "declarations": [
           {
@@ -1259,6 +1268,10 @@
           {
             "property": "overflow-y",
             "propertyValue": "auto"
+          },
+          {
+            "property": "overflow-x",
+            "propertyValue": "hidden"
           },
           {
             "property": "-webkit-overflow-scrolling",

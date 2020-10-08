@@ -42,7 +42,8 @@ $definitions: map-collect(
   $text,
   $user-select,
   $will-change,
-  $z-index
+  $z-index,
+  $user-definitions
 );
 
 @each $selector, $styles in $definitions {
