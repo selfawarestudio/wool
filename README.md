@@ -1,3 +1,5 @@
+DEPRECATED! Wool is no longer maintained becuase Tailwind JIT won us over 🙃
+
 # WOOL
 
 🐑 A comprehensive and flexible utility-first styling solution.
