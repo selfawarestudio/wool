@@ -1,4 +1,4 @@
-DEPRECATED! Wool is no longer maintained becuase Tailwind JIT won us over 🙃
+DEPRECATED! Wool is no longer maintained because Tailwind JIT won us over 🙃
 
 # WOOL
 
